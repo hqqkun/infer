@@ -16,12 +16,64 @@ class Status(Enum):
 
 
 class OpVisitor:
-    def __init__(self, solver: z3.Solver, ref_dict: dict):
+    class RangeConfig:
+        def __init__(self, **kwargs):
+            self.f16_min_val = kwargs.get("f16_min")
+            self.f16_max_val = kwargs.get("f16_max")
+            self.f32_min_val = kwargs.get("f32_min")
+            self.f32_max_val = kwargs.get("f32_max")
+            self.max_dynamic_dim = kwargs.get("max_dynamic_dim")
+            self.ln_f16_max_val = math.log(self.f16_max_val)
+            self.ln_f32_max_val = math.log(self.f32_max_val)
+
+    def __init__(self, solver: z3.Solver, ref_dict: dict, **kwargs):
         self.solver = solver
         self.ref_dict = ref_dict
-        self.f16_min_val = -60000
-        self.f16_max_val = 60000
-        self.ln_f16_max_val = math.log(self.f16_max_val)
+        self.config = self.RangeConfig(**kwargs)
+
+    @property
+    def f16_min_val(self):
+        return self.config.f16_min_val
+
+    @property
+    def f16_max_val(self):
+        return self.config.f16_max_val
+
+    @property
+    def f32_min_val(self):
+        return self.config.f32_min_val
+
+    @property
+    def f32_max_val(self):
+        return self.config.f32_max_val
+
+    @property
+    def max_dynamic_dim(self):
+        return self.config.max_dynamic_dim
+
+    @property
+    def ln_f16_max_val(self):
+        return self.config.ln_f16_max_val
+
+    @property
+    def ln_f32_max_val(self):
+        return self.config.ln_f32_max_val
+
+    def compute_safe_average(self, constants: list) -> Optional[float]:
+        if len(constants) == 0:
+            return None
+
+        sum_value: float = 0.0
+        for constant in constants:
+            if constant == float("nan"):
+                return None
+            elif constant == float("+inf"):
+                return self.f16_max_val
+            elif constant == float("-inf"):
+                return self.f16_min_val
+            else:
+                sum_value += float(constant)
+        return sum_value / len(constants)
 
     def set_range_constraints(
         self, value: Optional[z3.ArithRef], min_val: float = None, max_val: float = None
@@ -47,10 +99,6 @@ class OpVisitor:
         if type.has_static_shape:
             return z3.RealVal(max(type.shape))
         return None
-
-    def get_max_dynamic_dim(self) -> int:
-        """Returns the maximum dynamic dimension size."""
-        return 2048
 
     @singledispatchmethod
     def process_op(self, op):
@@ -102,18 +150,19 @@ class OpVisitor:
 
     @process_op.register(stablehlo.ConstantOp)
     def _(self, op: stablehlo.ConstantOp):
-        splat_value = op.value.get_splat_value().value
-        if splat_value == float("nan"):
-            return Status.FAILURE  # NaN is not a valid value in this context
+        cst = op.value
+        assert isinstance(cst, ir.DenseElementsAttr)
 
-        result_value = None
-        if splat_value == float("+inf"):
-            result_value = z3.RealVal(self.f16_max_val)
-        elif splat_value == float("-inf"):
-            result_value = z3.RealVal(self.f16_min_val)
+        constants = None
+        if cst.is_splat:
+            constants = [cst.get_splat_value().value]
         else:
-            result_value = z3.RealVal(float(splat_value))
-        self.ref_dict[op.output] = result_value
+            constants = list(cst)
+
+        val = self.compute_safe_average(constants)
+        if val is None:
+            return Status.FAILURE
+        self.ref_dict[op.output] = z3.RealVal(val)
         return Status.SUCCESS
 
     @process_op.register(stablehlo.DotOp)
@@ -139,7 +188,7 @@ class OpVisitor:
         result = self.ref_dict[op.lhs] * self.ref_dict[op.rhs]
         for dim in dot_dims_attr.lhs_contracting_dimensions:
             if lhs_type.is_dynamic_dim(dim):
-                result *= z3.RealVal(self.get_max_dynamic_dim())
+                result *= z3.RealVal(self.max_dynamic_dim)
             else:
                 result *= z3.RealVal(lhs_type.shape[dim])
         self.set_range_constraints(result)
@@ -202,7 +251,7 @@ class OpVisitor:
             numel = 1
             for dim in op.dimensions:
                 if src_type.is_dynamic_dim(dim):
-                    numel = self.get_max_dynamic_dim()
+                    numel = self.max_dynamic_dim
                 else:
                     numel *= src_type.shape[dim]
             result = self.ref_dict[src] * z3.RealVal(numel)
@@ -262,12 +311,30 @@ class OpVisitor:
         self.ref_dict[op.result] = result
         return Status.SUCCESS
 
+    @process_op.register(stablehlo.IsFiniteOp)
+    def _(self, op: stablehlo.IsFiniteOp):
+        result = z3.Real(op.result.get_name())
+        # The result is either true (1) or false (0).
+        self.boolean_range_constraint(result)
+        self.ref_dict[op.result] = result
+        return Status.SUCCESS
+
     @process_op.register(stablehlo.TanhOp)
     def _(self, op: stablehlo.TanhOp):
         # Tanh function: (exp(x) - exp(-x)) / (exp(x) + exp(-x))
         # For simplicity, we just ensure the result is within a reasonable range.
         result = z3.Real(op.result.get_name())
         self.set_range_constraints(result, min_val=-1.0, max_val=1.0)
+        self.ref_dict[op.result] = result
+        return Status.SUCCESS
+
+    @process_op.register(stablehlo.LogOp)
+    def _(self, op: stablehlo.LogOp):
+        operand = self.ref_dict[op.operand]
+        # Logarithm is only defined for positive values.
+        self.solver.add(operand > 0.0)
+        result = z3.Real(op.result.get_name())
+        self.set_range_constraints(result, max_val=self.ln_f16_max_val)
         self.ref_dict[op.result] = result
         return Status.SUCCESS
 
@@ -279,6 +346,13 @@ class OpVisitor:
         self.solver.add(operand > -1.0)
         result = z3.Real(op.result.get_name())
         self.set_range_constraints(result, max_val=self.ln_f16_max_val)
+        self.ref_dict[op.result] = result
+        return Status.SUCCESS
+
+    @process_op.register(stablehlo.PowOp)
+    def _(self, op: stablehlo.PowOp):
+        result = self.ref_dict[op.lhs] ** self.ref_dict[op.rhs]
+        self.set_range_constraints(result)
         self.ref_dict[op.result] = result
         return Status.SUCCESS
 
@@ -314,19 +388,16 @@ class OpVisitor:
 
     @process_op.register(tensor.DimOp)
     def _(self, op: tensor.DimOp):
-        # DimOp returns the size of a dimension
-        source_type = op.source.type
         index_opview = op.index.owner.opview
-        #TODO: Handle this
+        if not isinstance(index_opview, arith.ConstantOp):
+            return Status.FAILURE
 
-        dim_index = op.dimension.value
-        if source_type.is_dynamic_dim(dim_index):
-            result = z3.Real(op.result.get_name())
-            self.set_range_constraints(
-                result, min_val=0, max_val=self.get_max_dynamic_dim()
-            )
-        else:
-            result = z3.RealVal(source_type.shape[dim_index])
+        dim = int(index_opview.literal_value)
+        source_type = op.source.type
+        max_dim = self.max_dynamic_dim
+        result = z3.RealVal(
+            max_dim if source_type.is_dynamic_dim(dim) else source_type.shape[dim]
+        )
         self.ref_dict[op.result] = result
         return Status.SUCCESS
 
@@ -345,11 +416,32 @@ class OpVisitor:
             self.ref_dict[op.result] = opt_max_dim
         else:
             result = z3.Real(op.result.get_name())
-            self.set_range_constraints(
-                result, min_val=0, max_val=self.get_max_dynamic_dim()
-            )
+            self.set_range_constraints(result, min_val=0, max_val=self.max_dynamic_dim)
             self.ref_dict[op.result] = result
         return Status.SUCCESS
+
+    # TODO: handle other operations as needed
+    @process_op.register(stablehlo.AbsOp)
+    @process_op.register(stablehlo.FftOp)
+    @process_op.register(stablehlo.FloorOp)
+    @process_op.register(stablehlo.GetTupleElementOp)
+    @process_op.register(stablehlo.GetDimensionSizeOp)
+    @process_op.register(stablehlo.ImagOp)
+    @process_op.register(stablehlo.InfeedOp)
+    @process_op.register(stablehlo.IotaOp)
+    @process_op.register(stablehlo.OutfeedOp)
+    @process_op.register(stablehlo.OptimizationBarrierOp)
+    @process_op.register(stablehlo.PartitionIdOp)
+    @process_op.register(stablehlo.PopulationCountOp)
+    @process_op.register(stablehlo.RealOp)
+    @process_op.register(stablehlo.ReverseOp)
+    @process_op.register(stablehlo.SineOp)
+    @process_op.register(stablehlo.TupleOp)
+    @process_op.register(stablehlo.WhileOp)
+    def _(self, op):
+        raise NotImplementedError(
+            f"Operation {op.name} is not implemented in OpVisitor."
+        )
 
     def visit_op(self, op: ir.Operation):
         """
@@ -358,4 +450,5 @@ class OpVisitor:
         try:
             return self.process_op(op)
         except Exception as e:
+            print(f"Error processing operation {op}: {e}")
             raise e

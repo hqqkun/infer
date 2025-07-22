@@ -1,0 +1,2081 @@
+==== Starting test: 0512_adlrm.log ====
+[Wed Jul 23 09:53:00 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_0.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': -9, '%arg2': -9, '%arg3': -6, '%arg4': 1, '%arg5': -3, '%arg6': 1, '%arg7': 1, '%arg8': -9, '%arg9': -9, '%arg10': 1, '%arg11': 1, '%arg12': -2, '%arg13': 1}
+
+real	0m10.409s
+user	0m17.403s
+sys	0m0.064s
+----------------------------------------
+[Wed Jul 23 09:53:11 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_1.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.558s
+user	0m7.566s
+sys	0m0.048s
+----------------------------------------
+[Wed Jul 23 09:53:11 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_2.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 0}
+
+real	0m0.454s
+user	0m7.383s
+sys	0m0.068s
+----------------------------------------
+[Wed Jul 23 09:53:12 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_3.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.405s
+user	0m7.387s
+sys	0m0.076s
+----------------------------------------
+[Wed Jul 23 09:53:12 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_4.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': -1/100, '%arg1': 1, '%arg2': 1/100}
+
+real	0m0.432s
+user	0m7.432s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 09:53:12 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_5.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.404s
+user	0m7.392s
+sys	0m0.068s
+----------------------------------------
+[Wed Jul 23 09:53:13 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_6.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.411s
+user	0m7.393s
+sys	0m0.068s
+----------------------------------------
+[Wed Jul 23 09:53:13 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_7.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.415s
+user	0m7.396s
+sys	0m0.076s
+----------------------------------------
+[Wed Jul 23 09:53:14 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_8.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.393s
+user	0m7.405s
+sys	0m0.048s
+----------------------------------------
+[Wed Jul 23 09:53:14 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_9.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.392s
+user	0m7.398s
+sys	0m0.052s
+----------------------------------------
+[Wed Jul 23 09:53:14 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_10.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.405s
+user	0m7.415s
+sys	0m0.048s
+----------------------------------------
+[Wed Jul 23 09:53:15 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_11.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.397s
+user	0m7.409s
+sys	0m0.044s
+----------------------------------------
+[Wed Jul 23 09:53:15 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_12.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.413s
+user	0m7.425s
+sys	0m0.048s
+----------------------------------------
+[Wed Jul 23 09:53:16 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_13.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.421s
+user	0m7.410s
+sys	0m0.068s
+----------------------------------------
+[Wed Jul 23 09:53:16 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_14.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100, '%arg2': 1/100, '%arg3': 1/100}
+
+real	0m0.396s
+user	0m7.312s
+sys	0m0.146s
+----------------------------------------
+[Wed Jul 23 09:53:17 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_15.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.408s
+user	0m7.421s
+sys	0m0.044s
+----------------------------------------
+[Wed Jul 23 09:53:17 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_16.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 0, '%arg3': 1, '%arg4': 1}
+
+real	0m0.404s
+user	0m7.397s
+sys	0m0.064s
+----------------------------------------
+[Wed Jul 23 09:53:17 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_17.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 0, '%arg1': 1, '%arg2': 1, '%arg3': 1, '%arg4': 1, '%arg5': 1}
+
+real	0m0.423s
+user	0m7.404s
+sys	0m0.072s
+----------------------------------------
+[Wed Jul 23 09:53:18 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_18.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1, '%arg3': 1}
+
+real	0m0.413s
+user	0m7.421s
+sys	0m0.048s
+----------------------------------------
+[Wed Jul 23 09:53:18 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_19.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1, '%arg3': 1}
+
+real	0m0.400s
+user	0m7.325s
+sys	0m0.131s
+----------------------------------------
+[Wed Jul 23 09:53:19 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_20.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.404s
+user	0m7.292s
+sys	0m0.169s
+----------------------------------------
+[Wed Jul 23 09:53:19 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_21.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1, '%arg3': 1}
+
+real	0m0.430s
+user	0m7.439s
+sys	0m0.036s
+----------------------------------------
+[Wed Jul 23 09:53:19 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_22.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.411s
+user	0m7.321s
+sys	0m0.150s
+----------------------------------------
+[Wed Jul 23 09:53:20 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_23.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.393s
+user	0m7.374s
+sys	0m0.080s
+----------------------------------------
+[Wed Jul 23 09:53:20 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_24.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.411s
+user	0m7.399s
+sys	0m0.068s
+----------------------------------------
+[Wed Jul 23 09:53:21 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_25.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.407s
+user	0m7.397s
+sys	0m0.068s
+----------------------------------------
+[Wed Jul 23 09:53:21 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_26.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.402s
+user	0m7.408s
+sys	0m0.052s
+----------------------------------------
+[Wed Jul 23 09:53:22 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_27.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.413s
+user	0m7.415s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 09:53:22 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_28.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.382s
+user	0m7.384s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 09:53:22 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_29.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1/100, '%arg2': -1/100, '%arg3': 1/100, '%arg4': 1, '%arg5': 1/100, '%arg6': 1, '%arg7': 1/100, '%arg8': 1/100}
+
+real	0m0.414s
+user	0m7.427s
+sys	0m0.044s
+----------------------------------------
+[Wed Jul 23 09:53:23 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_30.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100, '%arg2': -1/100, '%arg3': 1/100, '%arg4': -1/100, '%arg5': 1/100, '%arg6': 1/100, '%arg7': 1/100, '%arg8': 1/100, '%arg9': -1/100, '%arg10': 1/100, '%arg11': 1/100, '%arg12': 1/100}
+
+real	0m0.416s
+user	0m7.418s
+sys	0m0.052s
+----------------------------------------
+[Wed Jul 23 09:53:23 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_31.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100, '%arg2': -1/100, '%arg3': 1/100, '%arg4': -1/100, '%arg5': 1/100, '%arg6': 1/100, '%arg7': 1/100, '%arg8': 1/100, '%arg9': -1/100, '%arg10': 1/100, '%arg11': 1/100, '%arg12': 1/100}
+
+real	0m0.400s
+user	0m7.409s
+sys	0m0.049s
+----------------------------------------
+[Wed Jul 23 09:53:24 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_32.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100, '%arg2': -1/100, '%arg3': 1/100, '%arg4': -1/100, '%arg5': 1/100, '%arg6': 1/100, '%arg7': 1/100, '%arg8': 1/100, '%arg9': -1/100, '%arg10': 1/100, '%arg11': 1/100, '%arg12': 1/100}
+
+real	0m0.399s
+user	0m7.415s
+sys	0m0.040s
+----------------------------------------
+[Wed Jul 23 09:53:24 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_33.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100, '%arg2': -1/100, '%arg3': 1/100, '%arg4': -1/100, '%arg5': 1/100, '%arg6': 1/100, '%arg7': 1/100, '%arg8': 1/100, '%arg9': -1/100, '%arg10': 1/100, '%arg11': 1/100, '%arg12': 1/100}
+
+real	0m0.416s
+user	0m7.428s
+sys	0m0.048s
+----------------------------------------
+[Wed Jul 23 09:53:24 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_34.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100, '%arg2': -1/100, '%arg3': 1/100, '%arg4': -1/100, '%arg5': 1/100, '%arg6': 1/100, '%arg7': 1/100, '%arg8': 1/100, '%arg9': -1/100, '%arg10': 1/100, '%arg11': 1/100, '%arg12': 1/100}
+
+real	0m0.408s
+user	0m7.404s
+sys	0m0.064s
+----------------------------------------
+[Wed Jul 23 09:53:25 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_35.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100, '%arg2': -1/100, '%arg3': 1/100, '%arg4': -1/100, '%arg5': 1/100, '%arg6': 1/100, '%arg7': 1/100, '%arg8': 1/100, '%arg9': -1/100, '%arg10': 1/100, '%arg11': 1/100, '%arg12': 1/100}
+
+real	0m0.439s
+user	0m7.443s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 09:53:25 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_36.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1/100, '%arg2': 1/100, '%arg3': -1/100, '%arg4': 0, '%arg5': 1/100, '%arg6': 1/100}
+
+real	0m0.416s
+user	0m7.398s
+sys	0m0.076s
+----------------------------------------
+[Wed Jul 23 09:53:26 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_37.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1/100, '%arg2': 1/100, '%arg3': -1/100, '%arg4': 0, '%arg5': 1/100, '%arg6': 1/100}
+
+real	0m0.410s
+user	0m7.429s
+sys	0m0.040s
+----------------------------------------
+[Wed Jul 23 09:53:26 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_38.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1, '%arg2': 1/100, '%arg3': -1/100, '%arg4': 0, '%arg5': 1/100, '%arg6': 1/100}
+
+real	0m0.397s
+user	0m7.376s
+sys	0m0.072s
+----------------------------------------
+[Wed Jul 23 09:53:26 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_39.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.441s
+user	0m7.429s
+sys	0m0.068s
+----------------------------------------
+[Wed Jul 23 09:53:27 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_40.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1, '%arg2': 1/100, '%arg3': -1/100, '%arg4': 0, '%arg5': 1/100, '%arg6': 1/100}
+
+real	0m0.389s
+user	0m7.390s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 09:53:27 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_41.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.387s
+user	0m7.415s
+sys	0m0.028s
+----------------------------------------
+[Wed Jul 23 09:53:28 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_42.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.509s
+user	0m7.499s
+sys	0m0.064s
+----------------------------------------
+[Wed Jul 23 09:53:28 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_43.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.401s
+user	0m7.410s
+sys	0m0.044s
+----------------------------------------
+[Wed Jul 23 09:53:29 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_44.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1/100, '%arg2': 51/100}
+
+real	0m0.385s
+user	0m7.388s
+sys	0m0.052s
+----------------------------------------
+[Wed Jul 23 09:53:29 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_45.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.400s
+user	0m7.406s
+sys	0m0.052s
+----------------------------------------
+[Wed Jul 23 09:53:29 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_46.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.389s
+user	0m7.406s
+sys	0m0.040s
+----------------------------------------
+[Wed Jul 23 09:53:30 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_47.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.385s
+user	0m7.385s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 09:53:30 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_48.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.393s
+user	0m7.395s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 09:53:31 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_49.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.394s
+user	0m7.403s
+sys	0m0.044s
+----------------------------------------
+[Wed Jul 23 09:53:31 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_50.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.421s
+user	0m7.230s
+sys	0m0.071s
+----------------------------------------
+[Wed Jul 23 09:53:31 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_51.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': -1/100, '%arg1': 1/100, '%arg2': 1/100}
+
+real	0m0.388s
+user	0m7.403s
+sys	0m0.040s
+----------------------------------------
+[Wed Jul 23 09:53:32 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_52.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': -1/100, '%arg1': 1/100, '%arg2': 1/100}
+
+real	0m0.379s
+user	0m7.257s
+sys	0m0.181s
+----------------------------------------
+[Wed Jul 23 09:53:32 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_53.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': -1/100, '%arg1': 1/100, '%arg2': 1/100}
+
+real	0m0.400s
+user	0m7.371s
+sys	0m0.076s
+----------------------------------------
+[Wed Jul 23 09:53:33 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_54.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': -1/100, '%arg1': 1/100, '%arg2': 1/100}
+
+real	0m0.392s
+user	0m7.391s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 09:53:33 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_55.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': -1/100, '%arg1': 1/100, '%arg2': 1/100}
+
+real	0m0.440s
+user	0m7.359s
+sys	0m0.135s
+----------------------------------------
+[Wed Jul 23 09:53:33 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_56.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1}
+
+real	0m0.466s
+user	0m7.448s
+sys	0m0.048s
+----------------------------------------
+[Wed Jul 23 09:53:34 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_57.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.406s
+user	0m7.406s
+sys	0m0.052s
+----------------------------------------
+[Wed Jul 23 09:53:34 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_58.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.389s
+user	0m7.387s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 09:53:35 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_59.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1, '%arg3': 1}
+
+real	0m0.388s
+user	0m7.408s
+sys	0m0.036s
+----------------------------------------
+[Wed Jul 23 09:53:35 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_60.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1/100, '%arg2': 51/100}
+
+real	0m0.385s
+user	0m7.385s
+sys	0m0.060s
+----------------------------------------
+[Wed Jul 23 09:53:35 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_61.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.408s
+user	0m7.420s
+sys	0m0.044s
+----------------------------------------
+[Wed Jul 23 09:53:36 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_62.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1/100, '%arg2': 51/100}
+
+real	0m0.402s
+user	0m7.396s
+sys	0m0.064s
+----------------------------------------
+[Wed Jul 23 09:53:36 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_63.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1/100, '%arg2': 51/100}
+
+real	0m0.407s
+user	0m7.418s
+sys	0m0.044s
+----------------------------------------
+[Wed Jul 23 09:53:37 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_64.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1/100, '%arg2': 51/100}
+
+real	0m0.423s
+user	0m7.427s
+sys	0m0.052s
+----------------------------------------
+[Wed Jul 23 09:53:37 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_65.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1/100, '%arg2': 51/100}
+
+real	0m0.425s
+user	0m7.414s
+sys	0m0.064s
+----------------------------------------
+[Wed Jul 23 09:53:38 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_66.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1/100, '%arg2': 51/100}
+
+real	0m0.409s
+user	0m7.385s
+sys	0m0.068s
+----------------------------------------
+[Wed Jul 23 09:53:38 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_67.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1/100, '%arg2': 51/100}
+
+real	0m0.412s
+user	0m7.388s
+sys	0m0.079s
+----------------------------------------
+[Wed Jul 23 09:53:38 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_68.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1/100, '%arg2': 51/100}
+
+real	0m0.392s
+user	0m7.393s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 09:53:39 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_69.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1/100, '%arg2': 51/100}
+
+real	0m0.411s
+user	0m7.403s
+sys	0m0.064s
+----------------------------------------
+[Wed Jul 23 09:53:39 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_70.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1/100, '%arg2': 51/100}
+
+real	0m0.426s
+user	0m7.419s
+sys	0m0.064s
+----------------------------------------
+[Wed Jul 23 09:53:40 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_71.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.399s
+user	0m7.301s
+sys	0m0.150s
+----------------------------------------
+[Wed Jul 23 09:53:40 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_72.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.435s
+user	0m7.440s
+sys	0m0.052s
+----------------------------------------
+[Wed Jul 23 09:53:40 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_73.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.407s
+user	0m7.401s
+sys	0m0.064s
+----------------------------------------
+[Wed Jul 23 09:53:41 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_74.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.414s
+user	0m7.411s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 09:53:41 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_75.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.403s
+user	0m7.407s
+sys	0m0.052s
+----------------------------------------
+[Wed Jul 23 09:53:42 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_76.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.402s
+user	0m7.427s
+sys	0m0.032s
+----------------------------------------
+[Wed Jul 23 09:53:42 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_77.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.423s
+user	0m7.399s
+sys	0m0.084s
+----------------------------------------
+[Wed Jul 23 09:53:43 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_78.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.478s
+user	0m7.482s
+sys	0m0.048s
+----------------------------------------
+[Wed Jul 23 09:53:43 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_79.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.407s
+user	0m7.415s
+sys	0m0.048s
+----------------------------------------
+[Wed Jul 23 09:53:43 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_80.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.405s
+user	0m7.406s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 09:53:44 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_81.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.398s
+user	0m7.384s
+sys	0m0.072s
+----------------------------------------
+[Wed Jul 23 09:53:44 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_82.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.393s
+user	0m7.407s
+sys	0m0.044s
+----------------------------------------
+[Wed Jul 23 09:53:45 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_83.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.458s
+user	0m7.299s
+sys	0m0.174s
+----------------------------------------
+[Wed Jul 23 09:53:45 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_84.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.399s
+user	0m7.400s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 09:53:46 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_85.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.405s
+user	0m7.410s
+sys	0m0.052s
+----------------------------------------
+[Wed Jul 23 09:53:46 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_86.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.391s
+user	0m7.401s
+sys	0m0.048s
+----------------------------------------
+[Wed Jul 23 09:53:46 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_87.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.389s
+user	0m7.388s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 09:53:47 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_88.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.423s
+user	0m7.414s
+sys	0m0.064s
+----------------------------------------
+[Wed Jul 23 09:53:47 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_89.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.435s
+user	0m7.419s
+sys	0m0.068s
+----------------------------------------
+[Wed Jul 23 09:53:48 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_90.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.407s
+user	0m7.399s
+sys	0m0.060s
+----------------------------------------
+[Wed Jul 23 09:53:48 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_91.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.409s
+user	0m7.354s
+sys	0m0.111s
+----------------------------------------
+[Wed Jul 23 09:53:48 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_92.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.412s
+user	0m7.394s
+sys	0m0.076s
+----------------------------------------
+[Wed Jul 23 09:53:49 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_93.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.394s
+user	0m7.337s
+sys	0m0.115s
+----------------------------------------
+[Wed Jul 23 09:53:49 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_94.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.416s
+user	0m7.423s
+sys	0m0.052s
+----------------------------------------
+[Wed Jul 23 09:53:50 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_95.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.408s
+user	0m7.396s
+sys	0m0.072s
+----------------------------------------
+[Wed Jul 23 09:53:50 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_96.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.406s
+user	0m7.394s
+sys	0m0.068s
+----------------------------------------
+[Wed Jul 23 09:53:50 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_97.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': -9, '%arg1': 1, '%arg2': 1}
+
+real	0m0.437s
+user	0m7.438s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 09:53:51 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_98.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100, '%arg2': 1/100}
+
+real	0m0.394s
+user	0m7.416s
+sys	0m0.036s
+----------------------------------------
+[Wed Jul 23 09:53:51 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_99.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.404s
+user	0m7.295s
+sys	0m0.166s
+----------------------------------------
+[Wed Jul 23 09:53:52 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_100.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100, '%arg2': 1/100}
+
+real	0m0.411s
+user	0m7.418s
+sys	0m0.052s
+----------------------------------------
+[Wed Jul 23 09:53:52 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_101.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.400s
+user	0m7.404s
+sys	0m0.052s
+----------------------------------------
+[Wed Jul 23 09:53:53 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_102.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.483s
+user	0m7.476s
+sys	0m0.052s
+----------------------------------------
+[Wed Jul 23 09:53:53 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_103.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.444s
+user	0m7.436s
+sys	0m0.044s
+----------------------------------------
+[Wed Jul 23 09:53:53 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_104.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.401s
+user	0m7.419s
+sys	0m0.040s
+----------------------------------------
+[Wed Jul 23 09:53:54 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_105.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.406s
+user	0m7.259s
+sys	0m0.146s
+----------------------------------------
+[Wed Jul 23 09:53:54 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_106.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.394s
+user	0m7.411s
+sys	0m0.040s
+----------------------------------------
+[Wed Jul 23 09:53:55 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_107.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.396s
+user	0m7.423s
+sys	0m0.028s
+----------------------------------------
+[Wed Jul 23 09:53:55 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_108.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.404s
+user	0m7.418s
+sys	0m0.040s
+----------------------------------------
+[Wed Jul 23 09:53:55 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_109.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.397s
+user	0m7.428s
+sys	0m0.024s
+----------------------------------------
+[Wed Jul 23 09:53:56 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_110.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.392s
+user	0m7.393s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 09:53:56 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_111.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.392s
+user	0m7.372s
+sys	0m0.076s
+----------------------------------------
+[Wed Jul 23 09:53:57 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_112.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.394s
+user	0m7.401s
+sys	0m0.048s
+----------------------------------------
+[Wed Jul 23 09:53:57 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_113.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.407s
+user	0m7.347s
+sys	0m0.115s
+----------------------------------------
+[Wed Jul 23 09:53:57 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_114.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.411s
+user	0m7.408s
+sys	0m0.060s
+----------------------------------------
+[Wed Jul 23 09:53:58 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_115.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.410s
+user	0m7.401s
+sys	0m0.068s
+----------------------------------------
+[Wed Jul 23 09:53:58 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_116.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.404s
+user	0m7.398s
+sys	0m0.060s
+----------------------------------------
+[Wed Jul 23 09:53:59 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_117.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.405s
+user	0m7.405s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 09:53:59 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_118.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.431s
+user	0m7.432s
+sys	0m0.048s
+----------------------------------------
+[Wed Jul 23 09:54:00 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_119.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.425s
+user	0m7.423s
+sys	0m0.044s
+----------------------------------------
+[Wed Jul 23 09:54:00 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_120.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.416s
+user	0m7.398s
+sys	0m0.072s
+----------------------------------------
+[Wed Jul 23 09:54:00 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_121.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.421s
+user	0m7.416s
+sys	0m0.060s
+----------------------------------------
+[Wed Jul 23 09:54:01 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_122.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.407s
+user	0m7.380s
+sys	0m0.080s
+----------------------------------------
+[Wed Jul 23 09:54:01 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_123.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.461s
+user	0m7.424s
+sys	0m0.088s
+----------------------------------------
+[Wed Jul 23 09:54:02 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_124.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.656s
+user	0m6.377s
+sys	0m0.068s
+----------------------------------------
+[Wed Jul 23 09:54:02 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_125.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.591s
+user	0m5.800s
+sys	0m0.078s
+----------------------------------------
+[Wed Jul 23 09:54:03 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_126.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.552s
+user	0m5.897s
+sys	0m0.074s
+----------------------------------------
+[Wed Jul 23 09:54:04 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_127.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.706s
+user	0m5.982s
+sys	0m0.095s
+----------------------------------------
+[Wed Jul 23 09:54:04 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_128.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.497s
+user	0m7.444s
+sys	0m0.096s
+----------------------------------------
+[Wed Jul 23 09:54:05 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_129.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.393s
+user	0m7.371s
+sys	0m0.080s
+----------------------------------------
+[Wed Jul 23 09:54:05 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_130.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.399s
+user	0m7.415s
+sys	0m0.044s
+----------------------------------------
+[Wed Jul 23 09:54:06 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_131.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.424s
+user	0m7.399s
+sys	0m0.084s
+----------------------------------------
+[Wed Jul 23 09:54:06 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_132.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': -1/100, '%arg1': 1/100, '%arg2': 1/100, '%arg3': 1/100, '%arg4': 1/100, '%arg5': 1/100}
+
+real	0m0.381s
+user	0m7.380s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 09:54:06 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_133.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.405s
+user	0m7.394s
+sys	0m0.064s
+----------------------------------------
+[Wed Jul 23 09:54:07 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_134.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.447s
+user	0m7.407s
+sys	0m0.088s
+----------------------------------------
+[Wed Jul 23 09:54:07 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_135.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.432s
+user	0m7.427s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 09:54:08 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_136.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.403s
+user	0m7.414s
+sys	0m0.048s
+----------------------------------------
+[Wed Jul 23 09:54:08 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_137.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.387s
+user	0m7.401s
+sys	0m0.044s
+----------------------------------------
+[Wed Jul 23 09:54:08 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_138.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.399s
+user	0m7.288s
+sys	0m0.169s
+----------------------------------------
+[Wed Jul 23 09:54:09 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_139.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.398s
+user	0m7.410s
+sys	0m0.044s
+----------------------------------------
+[Wed Jul 23 09:54:09 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_140.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.411s
+user	0m7.425s
+sys	0m0.040s
+----------------------------------------
+[Wed Jul 23 09:54:10 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_141.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.433s
+user	0m7.391s
+sys	0m0.080s
+----------------------------------------
+[Wed Jul 23 09:54:10 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_142.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.407s
+user	0m7.414s
+sys	0m0.052s
+----------------------------------------
+[Wed Jul 23 09:54:11 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_143.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.398s
+user	0m7.421s
+sys	0m0.032s
+----------------------------------------
+[Wed Jul 23 09:54:11 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_144.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.420s
+user	0m7.421s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 09:54:11 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_145.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.397s
+user	0m7.284s
+sys	0m0.170s
+----------------------------------------
+[Wed Jul 23 09:54:12 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_146.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.402s
+user	0m7.414s
+sys	0m0.044s
+----------------------------------------
+[Wed Jul 23 09:54:12 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_147.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.403s
+user	0m7.401s
+sys	0m0.052s
+----------------------------------------
+[Wed Jul 23 09:54:13 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_148.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.414s
+user	0m7.417s
+sys	0m0.052s
+----------------------------------------
+[Wed Jul 23 09:54:13 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_149.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.416s
+user	0m7.388s
+sys	0m0.084s
+----------------------------------------
+[Wed Jul 23 09:54:13 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_150.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.399s
+user	0m7.281s
+sys	0m0.169s
+----------------------------------------
+[Wed Jul 23 09:54:14 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_151.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.406s
+user	0m7.394s
+sys	0m0.068s
+----------------------------------------
+[Wed Jul 23 09:54:14 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_152.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.403s
+user	0m7.384s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 09:54:15 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_153.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.489s
+user	0m7.470s
+sys	0m0.076s
+----------------------------------------
+[Wed Jul 23 09:54:15 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_154.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.384s
+user	0m7.391s
+sys	0m0.048s
+----------------------------------------
+[Wed Jul 23 09:54:16 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_155.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.402s
+user	0m7.411s
+sys	0m0.068s
+----------------------------------------
+[Wed Jul 23 09:54:16 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_156.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.405s
+user	0m7.403s
+sys	0m0.060s
+----------------------------------------
+[Wed Jul 23 09:54:16 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_157.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1, '%arg3': 1}
+
+real	0m0.397s
+user	0m7.408s
+sys	0m0.048s
+----------------------------------------
+[Wed Jul 23 09:54:17 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_158.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.409s
+user	0m7.396s
+sys	0m0.068s
+----------------------------------------
+[Wed Jul 23 09:54:17 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_159.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.397s
+user	0m7.409s
+sys	0m0.048s
+----------------------------------------
+[Wed Jul 23 09:54:18 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_160.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.386s
+user	0m7.371s
+sys	0m0.072s
+----------------------------------------
+[Wed Jul 23 09:54:18 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_161.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.413s
+user	0m7.418s
+sys	0m0.052s
+----------------------------------------
+[Wed Jul 23 09:54:18 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_162.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.463s
+user	0m7.299s
+sys	0m0.068s
+----------------------------------------
+[Wed Jul 23 09:54:19 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_163.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 0, '%arg1': 1}
+
+real	0m0.380s
+user	0m7.385s
+sys	0m0.052s
+----------------------------------------
+[Wed Jul 23 09:54:19 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_164.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1, '%arg3': 1, '%arg4': 1, '%arg5': 1}
+
+real	0m0.413s
+user	0m7.406s
+sys	0m0.064s
+----------------------------------------
+[Wed Jul 23 09:54:20 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_165.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.407s
+user	0m7.419s
+sys	0m0.044s
+----------------------------------------
+[Wed Jul 23 09:54:20 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_166.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': -9, '%arg1': 1, '%arg2': 1}
+
+real	0m0.401s
+user	0m7.397s
+sys	0m0.060s
+----------------------------------------
+[Wed Jul 23 09:54:21 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_167.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100, '%arg2': 1/100}
+
+real	0m0.399s
+user	0m7.392s
+sys	0m0.060s
+----------------------------------------
+[Wed Jul 23 09:54:21 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_168.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.393s
+user	0m7.388s
+sys	0m0.060s
+----------------------------------------
+[Wed Jul 23 09:54:21 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_169.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100, '%arg2': 1/100}
+
+real	0m0.479s
+user	0m7.465s
+sys	0m0.068s
+----------------------------------------
+[Wed Jul 23 09:54:22 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_170.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.388s
+user	0m7.404s
+sys	0m0.044s
+----------------------------------------
+[Wed Jul 23 09:54:22 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_171.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': -1/100, '%arg1': -51/100, '%arg2': -51/100, '%arg3': 51/100, '%arg4': 1/100, '%arg5': 1/100, '%arg6': 1/100, '%arg7': 1/100, '%arg8': -1/100, '%arg9': 1/100, '%arg10': 1/100, '%arg11': 1/100, '%arg12': 1/100, '%arg13': 1/100, '%arg14': 101/100, '%arg15': 51/100, '%arg16': 51/100, '%arg17': 51/100, '%arg18': 51/100, '%arg19': 151/100, '%arg20': 101/100, '%arg21': 101/100, '%arg22': 201/100, '%arg23': 151/100, '%arg24': 151/100, '%arg25': 151/100, '%arg26': 151/100, '%arg27': 151/100, '%arg28': 251/100, '%arg29': 201/100, '%arg30': 301/100, '%arg31': 251/100}
+
+real	0m0.439s
+user	0m7.418s
+sys	0m0.080s
+----------------------------------------
+[Wed Jul 23 09:54:23 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_172.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.395s
+user	0m7.394s
+sys	0m0.052s
+----------------------------------------
+[Wed Jul 23 09:54:23 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_173.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.383s
+user	0m7.380s
+sys	0m0.060s
+----------------------------------------
+[Wed Jul 23 09:54:23 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_174.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.391s
+user	0m7.404s
+sys	0m0.044s
+----------------------------------------
+[Wed Jul 23 09:54:24 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_175.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.394s
+user	0m7.383s
+sys	0m0.064s
+----------------------------------------
+[Wed Jul 23 09:54:24 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_176.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.398s
+user	0m7.398s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 09:54:25 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_177.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.403s
+user	0m7.396s
+sys	0m0.065s
+----------------------------------------
+[Wed Jul 23 09:54:25 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_178.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.385s
+user	0m7.401s
+sys	0m0.040s
+----------------------------------------
+[Wed Jul 23 09:54:25 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_179.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.400s
+user	0m7.394s
+sys	0m0.060s
+----------------------------------------
+[Wed Jul 23 09:54:26 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_180.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.395s
+user	0m7.388s
+sys	0m0.064s
+----------------------------------------
+[Wed Jul 23 09:54:26 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_181.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.398s
+user	0m7.394s
+sys	0m0.060s
+----------------------------------------
+[Wed Jul 23 09:54:27 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_182.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.437s
+user	0m7.375s
+sys	0m0.044s
+----------------------------------------
+[Wed Jul 23 09:54:27 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_183.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': -1/100, '%arg1': 1/100}
+
+real	0m0.378s
+user	0m7.376s
+sys	0m0.060s
+----------------------------------------
+[Wed Jul 23 09:54:27 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_184.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.387s
+user	0m7.335s
+sys	0m0.107s
+----------------------------------------
+[Wed Jul 23 09:54:28 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_185.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.381s
+user	0m7.397s
+sys	0m0.040s
+----------------------------------------
+[Wed Jul 23 09:54:28 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_186.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.401s
+user	0m7.413s
+sys	0m0.044s
+----------------------------------------
+[Wed Jul 23 09:54:29 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_187.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.382s
+user	0m7.377s
+sys	0m0.060s
+----------------------------------------
+[Wed Jul 23 09:54:29 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_188.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.403s
+user	0m7.385s
+sys	0m0.072s
+----------------------------------------
+[Wed Jul 23 09:54:29 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_189.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.386s
+user	0m7.398s
+sys	0m0.044s
+----------------------------------------
+[Wed Jul 23 09:54:30 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_190.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.471s
+user	0m7.339s
+sys	0m0.064s
+----------------------------------------
+[Wed Jul 23 09:54:30 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_191.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.447s
+user	0m7.458s
+sys	0m0.052s
+----------------------------------------
+[Wed Jul 23 09:54:31 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_192.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.387s
+user	0m7.400s
+sys	0m0.044s
+----------------------------------------
+[Wed Jul 23 09:54:31 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_193.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.376s
+user	0m7.373s
+sys	0m0.060s
+----------------------------------------
+[Wed Jul 23 09:54:32 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_194.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.402s
+user	0m7.412s
+sys	0m0.044s
+----------------------------------------
+[Wed Jul 23 09:54:32 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_195.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.398s
+user	0m7.400s
+sys	0m0.052s
+----------------------------------------
+[Wed Jul 23 09:54:32 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_196.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.395s
+user	0m7.362s
+sys	0m0.088s
+----------------------------------------
+[Wed Jul 23 09:54:33 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_197.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.442s
+user	0m7.419s
+sys	0m0.080s
+----------------------------------------
+[Wed Jul 23 09:54:33 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_198.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.393s
+user	0m7.408s
+sys	0m0.044s
+----------------------------------------
+[Wed Jul 23 09:54:34 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_199.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.394s
+user	0m7.391s
+sys	0m0.060s
+----------------------------------------
+[Wed Jul 23 09:54:34 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_200.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.385s
+user	0m7.386s
+sys	0m0.052s
+----------------------------------------
+[Wed Jul 23 09:54:34 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_201.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.405s
+user	0m7.216s
+sys	0m0.067s
+----------------------------------------
+[Wed Jul 23 09:54:35 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_202.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.406s
+user	0m7.322s
+sys	0m0.138s
+----------------------------------------
+[Wed Jul 23 09:54:35 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_203.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 51/100, '%arg1': 1/100}
+
+real	0m0.404s
+user	0m7.421s
+sys	0m0.040s
+----------------------------------------
+[Wed Jul 23 09:54:36 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_204.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.397s
+user	0m7.406s
+sys	0m0.048s
+----------------------------------------
+[Wed Jul 23 09:54:36 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_205.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100, '%arg2': 1/100}
+
+real	0m0.406s
+user	0m7.414s
+sys	0m0.048s
+----------------------------------------
+[Wed Jul 23 09:54:36 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_206.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.396s
+user	0m7.410s
+sys	0m0.045s
+----------------------------------------
+[Wed Jul 23 09:54:37 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_207.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.421s
+user	0m7.362s
+sys	0m0.092s
+----------------------------------------
+[Wed Jul 23 09:54:37 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_208.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 51/100, '%arg1': 1/100}
+
+real	0m0.391s
+user	0m7.393s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 09:54:38 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_209.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.388s
+user	0m7.397s
+sys	0m0.048s
+----------------------------------------
+[Wed Jul 23 09:54:38 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_210.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100, '%arg2': 1/100}
+
+real	0m0.426s
+user	0m7.422s
+sys	0m0.048s
+----------------------------------------
+[Wed Jul 23 09:54:38 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_211.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.406s
+user	0m7.309s
+sys	0m0.154s
+----------------------------------------
+[Wed Jul 23 09:54:39 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_212.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.435s
+user	0m7.424s
+sys	0m0.069s
+----------------------------------------
+[Wed Jul 23 09:54:39 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_213.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 51/100, '%arg1': 1/100}
+
+real	0m0.410s
+user	0m7.408s
+sys	0m0.060s
+----------------------------------------
+[Wed Jul 23 09:54:40 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_214.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.402s
+user	0m7.419s
+sys	0m0.040s
+----------------------------------------
+[Wed Jul 23 09:54:40 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_215.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': -1/100, '%arg2': 1/100, '%arg3': 1, '%arg4': -3/200, '%arg5': 1, '%arg6': -1/100, '%arg7': 1}
+
+real	0m0.384s
+user	0m7.249s
+sys	0m0.196s
+----------------------------------------
+[Wed Jul 23 09:54:41 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_216.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100, '%arg2': 1/100}
+
+real	0m0.406s
+user	0m7.421s
+sys	0m0.044s
+----------------------------------------
+[Wed Jul 23 09:54:41 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_217.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.382s
+user	0m7.372s
+sys	0m0.068s
+----------------------------------------
+[Wed Jul 23 09:54:41 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_218.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.476s
+user	0m7.476s
+sys	0m0.052s
+----------------------------------------
+[Wed Jul 23 09:54:42 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_219.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 151/100, '%arg2': 1/100, '%arg3': 1, '%arg4': 101/100, '%arg5': 0, '%arg6': 1/100, '%arg7': 1, '%arg8': 51/100, '%arg9': 1}
+
+real	0m0.378s
+user	0m7.394s
+sys	0m0.040s
+----------------------------------------
+[Wed Jul 23 09:54:42 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_220.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 51/100, '%arg1': 1/100}
+
+real	0m0.440s
+user	0m7.445s
+sys	0m0.052s
+----------------------------------------
+[Wed Jul 23 09:54:43 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_221.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.442s
+user	0m7.405s
+sys	0m0.092s
+----------------------------------------
+[Wed Jul 23 09:54:43 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_222.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100, '%arg2': 1/100}
+
+real	0m0.420s
+user	0m7.418s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 09:54:43 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_223.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.429s
+user	0m7.427s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 09:54:44 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_224.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.426s
+user	0m7.373s
+sys	0m0.103s
+----------------------------------------
+[Wed Jul 23 09:54:44 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_225.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 51/100, '%arg1': 1/100}
+
+real	0m0.390s
+user	0m7.388s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 09:54:45 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_226.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.388s
+user	0m7.389s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 09:54:45 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_227.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.412s
+user	0m7.394s
+sys	0m0.076s
+----------------------------------------
+[Wed Jul 23 09:54:46 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_228.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100, '%arg2': 1/100}
+
+real	0m0.413s
+user	0m7.392s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 09:54:46 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_229.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.403s
+user	0m7.418s
+sys	0m0.040s
+----------------------------------------
+[Wed Jul 23 09:54:46 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/ad_lrm_model_survey_2k_nofw_r4821022_0/main_cluster_230.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.407s
+user	0m7.388s
+sys	0m0.072s
+----------------------------------------
+==== Completed: 0512_adlrm.log ====

@@ -1,0 +1,866 @@
+==== Starting test: 0611_ad_2k.log ====
+[Wed Jul 23 10:14:13 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_0.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1, '%arg3': -9, '%arg4': 1, '%arg5': 1, '%arg6': 1, '%arg7': 1, '%arg8': 1, '%arg9': -2, '%arg10': 1, '%arg11': 1, '%arg12': -11/1024, '%arg13': 1, '%arg14': -1/2, '%arg15': 1, '%arg16': 1/64, '%arg17': -9, '%arg18': -9, '%arg19': 1, '%arg20': 1/64, '%arg21': 1, '%arg22': 1, '%arg23': 1, '%arg24': -9, '%arg25': -9, '%arg26': -9, '%arg27': 1, '%arg28': -1/16, '%arg29': 1, '%arg30': -9, '%arg31': -9, '%arg32': 1, '%arg33': 4, '%arg34': -1, '%arg35': 1, '%arg36': -9, '%arg37': 1, '%arg38': -9, '%arg39': 1, '%arg40': 1, '%arg41': -9, '%arg42': -7, '%arg43': 1, '%arg44': -41/4096, '%arg45': -9, '%arg46': -9, '%arg47': -9, '%arg48': -1/64, '%arg49': 1/8, '%arg50': 1, '%arg51': 1, '%arg52': 1/2, '%arg53': 1, '%arg54': -1/8, '%arg55': -9, '%arg56': -9, '%arg57': 1, '%arg58': -9, '%arg59': 1, '%arg60': 1, '%arg61': -9, '%arg62': 1, '%arg63': 1, '%arg64': -9, '%arg65': -9, '%arg66': 1/32, '%arg67': 1, '%arg68': -9, '%arg69': -9, '%arg70': 1, '%arg71': 1, '%arg72': -9, '%arg73': -9, '%arg74': -9, '%arg75': 1, '%arg76': 1, '%arg77': 1, '%arg78': 1, '%arg79': 1, '%arg80': 1, '%arg81': 1, '%arg82': 1, '%arg83': 1, '%arg84': 1, '%arg85': 1, '%arg86': 1, '%arg87': 1, '%arg88': 1, '%arg89': 1, '%arg90': 1, '%arg91': 1, '%arg92': 1, '%arg93': 1, '%arg94': 1, '%arg95': 1, '%arg96': 1, '%arg97': 1, '%arg98': 1, '%arg99': 1, '%arg100': 1/64, '%arg101': -9, '%arg102': 1, '%arg103': 1, '%arg104': 1, '%arg105': 1, '%arg106': 1, '%arg107': 1, '%arg108': 1, '%arg109': 1, '%arg110': 1, '%arg111': 1, '%arg112': 1, '%arg113': 1, '%arg114': 1, '%arg115': 1, '%arg116': 1, '%arg117': 1, '%arg118': 1, '%arg119': 1, '%arg120': 1, '%arg121': 1, '%arg122': 1, '%arg123': 1, '%arg124': 1, '%arg125': 1, '%arg126': 1, '%arg127': 1, '%arg128': 1, '%arg129': 1, '%arg130': 1, '%arg131': -9, '%arg132': 1, '%arg133': 1, '%arg134': 1, '%arg135': 1, '%arg136': 1, '%arg137': 1, '%arg138': 1/2, '%arg139': 1, '%arg140': 1, '%arg141': 1, '%arg142': 1/64, '%arg143': 1, '%arg144': 1, '%arg145': 1, '%arg146': 1, '%arg147': 1, '%arg148': 1, '%arg149': 1}
+
+real	0m19.577s
+user	0m26.564s
+sys	0m0.068s
+----------------------------------------
+[Wed Jul 23 10:14:33 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_1.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1, '%arg3': 1, '%arg4': 1, '%arg5': 1, '%arg6': 1, '%arg7': -9, '%arg8': -9, '%arg9': 1, '%arg10': 1, '%arg11': 1, '%arg12': 1/4, '%arg13': 1, '%arg14': 1, '%arg15': 1, '%arg16': 1, '%arg17': 1/4, '%arg18': 1, '%arg19': 1, '%arg20': 1, '%arg21': 1, '%arg22': 1, '%arg23': 1, '%arg24': 1, '%arg25': 1, '%arg26': 1, '%arg27': 1, '%arg28': 1, '%arg29': 1, '%arg30': 1, '%arg31': 1, '%arg32': 3/256, '%arg33': 1, '%arg34': -3/256, '%arg35': 1, '%arg36': 1, '%arg37': 1, '%arg38': 1, '%arg39': 1, '%arg40': 1, '%arg41': 1, '%arg42': 1, '%arg43': 1, '%arg44': 1, '%arg45': 1, '%arg46': 1, '%arg47': 1, '%arg48': 1, '%arg49': 1, '%arg50': 1, '%arg51': 1, '%arg52': 1, '%arg53': 1, '%arg54': 1, '%arg55': 1, '%arg56': 1, '%arg57': 1, '%arg58': 1/2, '%arg59': 1, '%arg60': 1, '%arg61': 1, '%arg62': 1, '%arg63': 1, '%arg64': 1, '%arg65': 1, '%arg66': 1, '%arg67': 1, '%arg68': 1, '%arg69': 1, '%arg70': 1, '%arg71': 1, '%arg72': 1, '%arg73': 1, '%arg74': 1, '%arg75': 1, '%arg76': 1, '%arg77': 1, '%arg78': 1, '%arg79': 1, '%arg80': 1, '%arg81': 1, '%arg82': 1, '%arg83': 1, '%arg84': 1, '%arg85': 1, '%arg86': 1, '%arg87': 1, '%arg88': 1, '%arg89': 1, '%arg90': 1, '%arg91': 1, '%arg92': 1, '%arg93': 1, '%arg94': 1/2, '%arg95': 1, '%arg96': 1, '%arg97': 1, '%arg98': 1, '%arg99': 1, '%arg100': 1, '%arg101': 1, '%arg102': 1, '%arg103': 1, '%arg104': 1, '%arg105': 1, '%arg106': 1, '%arg107': 1, '%arg108': 1, '%arg109': 1, '%arg110': 1, '%arg111': 1, '%arg112': 1, '%arg113': 1, '%arg114': 1, '%arg115': 1, '%arg116': 1, '%arg117': 1, '%arg118': 1, '%arg119': 1, '%arg120': 1, '%arg121': 1, '%arg122': 1, '%arg123': 1, '%arg124': 1, '%arg125': 1, '%arg126': 1, '%arg127': 1, '%arg128': 1/2, '%arg129': 1, '%arg130': 1, '%arg131': 1, '%arg132': 1, '%arg133': 1, '%arg134': 1, '%arg135': 1, '%arg136': 1, '%arg137': 1, '%arg138': 1, '%arg139': 1, '%arg140': 1, '%arg141': 1, '%arg142': 1, '%arg143': 1, '%arg144': 1, '%arg145': 1, '%arg146': 1, '%arg147': 1, '%arg148': 1, '%arg149': 1, '%arg150': 1, '%arg151': 1, '%arg152': 1, '%arg153': 1, '%arg154': 1, '%arg155': 1, '%arg156': 1, '%arg157': 1, '%arg158': 1, '%arg159': 1, '%arg160': 1, '%arg161': 1, '%arg162': 1, '%arg163': 1, '%arg164': 1/2, '%arg165': 1, '%arg166': 1, '%arg167': 1, '%arg168': 1, '%arg169': 1, '%arg170': 1, '%arg171': 1, '%arg172': 1, '%arg173': 1, '%arg174': 1, '%arg175': 1, '%arg176': 1, '%arg177': 1, '%arg178': 1, '%arg179': 1, '%arg180': 1, '%arg181': 1, '%arg182': 1, '%arg183': 1, '%arg184': 1, '%arg185': 1, '%arg186': 1, '%arg187': 1, '%arg188': 1, '%arg189': 1, '%arg190': 1, '%arg191': 1, '%arg192': 1, '%arg193': 1, '%arg194': 1, '%arg195': 1, '%arg196': 1, '%arg197': 1, '%arg198': 1, '%arg199': 1, '%arg200': 1/2, '%arg201': 1, '%arg202': 1, '%arg203': 1, '%arg204': 1, '%arg205': 1, '%arg206': 1, '%arg207': 1, '%arg208': 1, '%arg209': 1, '%arg210': 1, '%arg211': 1, '%arg212': 1, '%arg213': 1, '%arg214': 1, '%arg215': 1, '%arg216': 1, '%arg217': 1, '%arg218': 1, '%arg219': 1, '%arg220': 1, '%arg221': 1, '%arg222': 1, '%arg223': 1, '%arg224': 1, '%arg225': 1, '%arg226': 1, '%arg227': 1, '%arg228': 1, '%arg229': 1, '%arg230': 1, '%arg231': 1, '%arg232': 1, '%arg233': 1, '%arg234': 1/2, '%arg235': 1, '%arg236': 1, '%arg237': 1, '%arg238': 1, '%arg239': 1, '%arg240': 1, '%arg241': 1, '%arg242': 1, '%arg243': 1, '%arg244': 1, '%arg245': 1, '%arg246': 1, '%arg247': 1, '%arg248': 1, '%arg249': 1, '%arg250': 1, '%arg251': 1, '%arg252': 1, '%arg253': 1, '%arg254': 1, '%arg255': 1, '%arg256': 1, '%arg257': 1, '%arg258': 1, '%arg259': 1, '%arg260': 1, '%arg261': 1, '%arg262': 1, '%arg263': 1, '%arg264': 1, '%arg265': 1, '%arg266': 1, '%arg267': 1, '%arg268': 1/2, '%arg269': 1, '%arg270': 1, '%arg271': 1, '%arg272': 1, '%arg273': 1, '%arg274': 1, '%arg275': 1, '%arg276': 1, '%arg277': 1, '%arg278': 1, '%arg279': 1, '%arg280': 1, '%arg281': 1}
+
+real	0m14.953s
+user	0m21.915s
+sys	0m0.108s
+----------------------------------------
+[Wed Jul 23 10:14:48 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_2.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': -9, '%arg2': 1, '%arg3': 1, '%arg4': 1, '%arg5': 1, '%arg6': 1, '%arg7': 1, '%arg8': 1, '%arg9': 1}
+
+real	0m0.466s
+user	0m7.489s
+sys	0m0.060s
+----------------------------------------
+[Wed Jul 23 10:14:48 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_3.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': -1/100, '%arg1': 1/100, '%arg2': 1/100, '%arg3': 1/100, '%arg4': -79/160, '%arg5': 1/100, '%arg6': 1/100, '%arg7': 1/100, '%arg8': 1/100}
+
+real	0m0.473s
+user	0m7.445s
+sys	0m0.088s
+----------------------------------------
+[Wed Jul 23 10:14:49 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_4.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': -1/100, '%arg1': -1/100, '%arg2': 1/100}
+
+real	0m0.496s
+user	0m7.460s
+sys	0m0.076s
+----------------------------------------
+[Wed Jul 23 10:14:49 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_5.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': -9, '%arg2': 1, '%arg3': 1, '%arg4': 1, '%arg5': 1}
+
+real	0m0.460s
+user	0m7.473s
+sys	0m0.068s
+----------------------------------------
+[Wed Jul 23 10:14:50 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_6.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': -9, '%arg2': 1, '%arg3': 1, '%arg4': 1, '%arg5': 1, '%arg6': 1, '%arg7': 1, '%arg8': 1, '%arg9': 1, '%arg10': 1, '%arg11': 1, '%arg12': 1, '%arg13': 1, '%arg14': 1, '%arg15': 1, '%arg16': 1, '%arg17': 1, '%arg18': 1, '%arg19': 1, '%arg20': 1, '%arg21': 1, '%arg22': 1, '%arg23': 1, '%arg24': 1, '%arg25': 1, '%arg26': 1, '%arg27': 1, '%arg28': 1, '%arg29': 1, '%arg30': 1, '%arg31': 1, '%arg32': 1, '%arg33': 1, '%arg34': 1, '%arg35': 1, '%arg36': 1, '%arg37': 1, '%arg38': 1, '%arg39': 1, '%arg40': 1, '%arg41': 1, '%arg42': 1, '%arg43': 1, '%arg44': 1, '%arg45': 1, '%arg46': 1, '%arg47': 1, '%arg48': 1, '%arg49': 1, '%arg50': 1, '%arg51': 1, '%arg52': 1, '%arg53': 1, '%arg54': 1, '%arg55': 1, '%arg56': 1, '%arg57': 1, '%arg58': 1, '%arg59': 1, '%arg60': 1, '%arg61': 1, '%arg62': 1, '%arg63': 1, '%arg64': 1, '%arg65': 1, '%arg66': 1, '%arg67': 1, '%arg68': 1, '%arg69': 1, '%arg70': 1, '%arg71': 1, '%arg72': 1, '%arg73': 1, '%arg74': 1, '%arg75': 1, '%arg76': 1, '%arg77': 1, '%arg78': 1, '%arg79': 1, '%arg80': 1, '%arg81': 1, '%arg82': 1, '%arg83': 1, '%arg84': 1, '%arg85': 1, '%arg86': 1, '%arg87': 1, '%arg88': 1, '%arg89': 1, '%arg90': 1, '%arg91': 1, '%arg92': 1, '%arg93': 1, '%arg94': 1}
+
+real	0m0.563s
+user	0m7.559s
+sys	0m0.060s
+----------------------------------------
+[Wed Jul 23 10:14:50 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_7.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': -1/100, '%arg1': -15/16, '%arg2': 48/5, '%arg3': -1/100, '%arg4': 1/100, '%arg5': -9}
+
+real	0m0.467s
+user	0m7.464s
+sys	0m0.060s
+----------------------------------------
+[Wed Jul 23 10:14:51 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_8.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': -1/100, '%arg1': -15/16, '%arg2': 48/5, '%arg3': -1/100, '%arg4': 1/100, '%arg5': -9}
+
+real	0m0.465s
+user	0m7.443s
+sys	0m0.080s
+----------------------------------------
+[Wed Jul 23 10:14:51 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_9.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': -1/100, '%arg1': 1/100, '%arg2': 1/100, '%arg3': 1/100, '%arg4': -63/128, '%arg5': 1/100, '%arg6': 1/100, '%arg7': 1/100, '%arg8': 1/100}
+
+real	0m0.469s
+user	0m7.467s
+sys	0m0.060s
+----------------------------------------
+[Wed Jul 23 10:14:52 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_10.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': -1/100, '%arg1': 1/100, '%arg2': 1/100, '%arg3': 1/100, '%arg4': -63/128, '%arg5': 1/100, '%arg6': 1/100, '%arg7': 1/100, '%arg8': 1/100}
+
+real	0m0.492s
+user	0m7.491s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 10:14:52 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_11.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': -1/100, '%arg1': 1/100, '%arg2': 1/100, '%arg3': 1/100, '%arg4': -63/128, '%arg5': 1/100, '%arg6': 1/100, '%arg7': 1/100, '%arg8': 1/100}
+
+real	0m0.467s
+user	0m7.466s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 10:14:53 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_12.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': -1/100, '%arg1': 1/100, '%arg2': 1/100, '%arg3': 1/100, '%arg4': -63/128, '%arg5': 1/100, '%arg6': 1/100, '%arg7': 1/100, '%arg8': 1/100}
+
+real	0m0.551s
+user	0m7.535s
+sys	0m0.072s
+----------------------------------------
+[Wed Jul 23 10:14:53 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_13.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': -1/100, '%arg1': 1, '%arg2': 3/100, '%arg3': -1/100, '%arg4': 1/100, '%arg5': 1/100, '%arg6': 1/100, '%arg7': 1/100, '%arg8': 1/100, '%arg9': 1/100}
+
+real	0m0.475s
+user	0m7.488s
+sys	0m0.048s
+----------------------------------------
+[Wed Jul 23 10:14:54 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_14.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': -1/100}
+
+real	0m0.548s
+user	0m7.547s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 10:14:54 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_15.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1, '%arg3': 1}
+
+real	0m0.456s
+user	0m7.455s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 10:14:55 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_16.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': -1/100, '%arg1': 1/100}
+
+real	0m0.612s
+user	0m7.613s
+sys	0m0.052s
+----------------------------------------
+[Wed Jul 23 10:14:55 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_17.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': -4, '%arg1': 1, '%arg2': 1, '%arg3': 1, '%arg4': 1, '%arg5': 1}
+
+real	0m0.485s
+user	0m7.467s
+sys	0m0.076s
+----------------------------------------
+[Wed Jul 23 10:14:56 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_18.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1, '%arg3': 1, '%arg4': 1, '%arg5': 1}
+
+real	0m0.463s
+user	0m7.420s
+sys	0m0.048s
+----------------------------------------
+[Wed Jul 23 10:14:56 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_19.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1/100, '%arg2': 51/100}
+
+real	0m0.459s
+user	0m7.436s
+sys	0m0.080s
+----------------------------------------
+[Wed Jul 23 10:14:57 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_20.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 0, '%arg1': 1, '%arg2': 1, '%arg3': 1, '%arg4': 1, '%arg5': 1, '%arg6': 1}
+
+real	0m0.459s
+user	0m7.451s
+sys	0m0.064s
+----------------------------------------
+[Wed Jul 23 10:14:57 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_21.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 0, '%arg1': 1, '%arg2': 1, '%arg3': 1, '%arg4': 1}
+
+real	0m0.445s
+user	0m7.440s
+sys	0m0.064s
+----------------------------------------
+[Wed Jul 23 10:14:58 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_22.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1/2, '%arg2': 1/2, '%arg3': 1, '%arg4': 1, '%arg5': 1, '%arg6': 1, '%arg7': 1, '%arg8': 1, '%arg9': 1}
+
+real	0m0.467s
+user	0m7.458s
+sys	0m0.064s
+----------------------------------------
+[Wed Jul 23 10:14:58 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_23.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/2, '%arg1': 1, '%arg2': 1/2, '%arg3': 1, '%arg4': 1, '%arg5': 1/32, '%arg6': 1, '%arg7': 1, '%arg8': 1, '%arg9': -1/32, '%arg10': 1, '%arg11': 1, '%arg12': 1, '%arg13': 1/32, '%arg14': 1, '%arg15': -9, '%arg16': 1, '%arg17': 1, '%arg18': 1, '%arg19': 1, '%arg20': 1, '%arg21': -1/32, '%arg22': 1, '%arg23': -9, '%arg24': 1, '%arg25': 1, '%arg26': -9, '%arg27': 1, '%arg28': -9, '%arg29': 1/32, '%arg30': 1, '%arg31': 1, '%arg32': 1, '%arg33': 1/32, '%arg34': 1, '%arg35': 1, '%arg36': 1, '%arg37': 1/32, '%arg38': 1, '%arg39': 1, '%arg40': 1, '%arg41': 1/32, '%arg42': 1, '%arg43': 1, '%arg44': 1, '%arg45': 1/32, '%arg46': 1, '%arg47': 1, '%arg48': 1, '%arg49': 1/32, '%arg50': 1, '%arg51': 1, '%arg52': 1, '%arg53': 1/32, '%arg54': 1, '%arg55': 1, '%arg56': 1, '%arg57': 1/32, '%arg58': 1, '%arg59': 1, '%arg60': 1, '%arg61': 1/32, '%arg62': 1, '%arg63': 1, '%arg64': 1, '%arg65': 1/32, '%arg66': 1, '%arg67': 1, '%arg68': 1, '%arg69': 1/8, '%arg70': 1, '%arg71': 1, '%arg72': 1, '%arg73': 1/8, '%arg74': 1, '%arg75': 1, '%arg76': 1, '%arg77': 1/32, '%arg78': 1, '%arg79': 1, '%arg80': 1, '%arg81': 1/32, '%arg82': 1}
+
+real	0m0.598s
+user	0m7.596s
+sys	0m0.060s
+----------------------------------------
+[Wed Jul 23 10:14:59 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_24.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 11/1024, '%arg1': 9/808, '%arg2': -9, '%arg3': -9, '%arg4': -9, '%arg5': -9, '%arg6': -9, '%arg7': 21/2048, '%arg8': 1, '%arg9': -9, '%arg10': 1, '%arg11': 1, '%arg12': 1/2, '%arg13': 1, '%arg14': 1, '%arg15': -9, '%arg16': -9, '%arg17': 1, '%arg18': 1, '%arg19': 1, '%arg20': 1, '%arg21': -9, '%arg22': 1, '%arg23': 1, '%arg24': 1, '%arg25': 1, '%arg26': 1, '%arg27': 1, '%arg28': 1, '%arg29': 1, '%arg30': 1, '%arg31': 1, '%arg32': 1, '%arg33': 1/8, '%arg34': -9, '%arg35': 1, '%arg36': 1, '%arg37': 1, '%arg38': 1, '%arg39': 1, '%arg40': 1, '%arg41': 1/8, '%arg42': 1, '%arg43': 1, '%arg44': 1, '%arg45': 1, '%arg46': 1, '%arg47': 1, '%arg48': 1, '%arg49': 1/8, '%arg50': 1, '%arg51': 1, '%arg52': 1, '%arg53': 1/2, '%arg54': 0, '%arg55': 1, '%arg56': 1, '%arg57': 1, '%arg58': -39/4, '%arg59': 1/8, '%arg60': 1, '%arg61': 1, '%arg62': 1/64, '%arg63': -4095/512, '%arg64': -9, '%arg65': 1, '%arg66': 1, '%arg67': 1, '%arg68': 1}
+
+real	0m0.648s
+user	0m7.656s
+sys	0m0.048s
+----------------------------------------
+[Wed Jul 23 10:15:00 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_25.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': -87/400, '%arg2': 1/100, '%arg3': -161/12400, '%arg4': 1/100, '%arg5': 1/100, '%arg6': -1/100, '%arg7': 19/1600, '%arg8': 1/100, '%arg9': -1/100, '%arg10': -1/100, '%arg11': -5489/25200, '%arg12': 1/100, '%arg13': -7/400, '%arg14': -1/100, '%arg15': -1/80, '%arg16': -1/100, '%arg17': 21/1600, '%arg18': 1/100, '%arg19': 23/1600, '%arg20': 1/100, '%arg21': 1/64, '%arg22': 1/100, '%arg23': -13/400, '%arg24': -1/100, '%arg25': -27/800, '%arg26': -1/100, '%arg27': 29/2000, '%arg28': 1/100, '%arg29': -31/2500, '%arg30': 31/2500, '%arg31': 0, '%arg32': 1/100, '%arg33': 0, '%arg34': 1/100, '%arg35': 0, '%arg36': 1/100, '%arg37': 0, '%arg38': 1/100}
+
+real	0m50.570s
+user	0m57.506s
+sys	0m0.120s
+----------------------------------------
+[Wed Jul 23 10:15:50 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_26.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1, '%arg3': 1, '%arg4': 1/4, '%arg5': 1, '%arg6': 1, '%arg7': 1, '%arg8': 1, '%arg9': 1/4, '%arg10': 1}
+
+real	0m0.415s
+user	0m7.311s
+sys	0m0.166s
+----------------------------------------
+[Wed Jul 23 10:15:51 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_27.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1, '%arg3': -1/64, '%arg4': 8193/1024, '%arg5': 1, '%arg6': -9, '%arg7': 1, '%arg8': -9, '%arg9': -9, '%arg10': 1, '%arg11': 1}
+
+real	0m0.448s
+user	0m7.433s
+sys	0m0.076s
+----------------------------------------
+[Wed Jul 23 10:15:51 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_28.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1, '%arg3': -1/64, '%arg4': 8193/1024, '%arg5': 1, '%arg6': -9, '%arg7': 1, '%arg8': -9, '%arg9': -9, '%arg10': 1, '%arg11': 1}
+
+real	0m0.429s
+user	0m7.418s
+sys	0m0.068s
+----------------------------------------
+[Wed Jul 23 10:15:51 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_29.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': -9, '%arg2': -9, '%arg3': 1, '%arg4': -1/64, '%arg5': 9, '%arg6': -9, '%arg7': 1, '%arg8': 1, '%arg9': 1, '%arg10': 1, '%arg11': 1, '%arg12': -7, '%arg13': -9, '%arg14': 1, '%arg15': 1, '%arg16': -9, '%arg17': -9, '%arg18': 1, '%arg19': 1, '%arg20': -9, '%arg21': 0, '%arg22': 0, '%arg23': 1, '%arg24': 0, '%arg25': 1, '%arg26': 1, '%arg27': 1, '%arg28': 1, '%arg29': 1, '%arg30': 1, '%arg31': 1, '%arg32': 0}
+
+real	0m0.504s
+user	0m7.497s
+sys	0m0.064s
+----------------------------------------
+[Wed Jul 23 10:15:52 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_30.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.406s
+user	0m7.285s
+sys	0m0.177s
+----------------------------------------
+[Wed Jul 23 10:15:52 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_31.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.463s
+user	0m7.454s
+sys	0m0.068s
+----------------------------------------
+[Wed Jul 23 10:15:53 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_32.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.455s
+user	0m7.446s
+sys	0m0.052s
+----------------------------------------
+[Wed Jul 23 10:15:53 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_33.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.408s
+user	0m7.418s
+sys	0m0.048s
+----------------------------------------
+[Wed Jul 23 10:15:54 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_34.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.445s
+user	0m7.427s
+sys	0m0.036s
+----------------------------------------
+[Wed Jul 23 10:15:54 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_35.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.434s
+user	0m7.442s
+sys	0m0.044s
+----------------------------------------
+[Wed Jul 23 10:15:55 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_36.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.395s
+user	0m7.404s
+sys	0m0.052s
+----------------------------------------
+[Wed Jul 23 10:15:55 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_37.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.400s
+user	0m7.389s
+sys	0m0.068s
+----------------------------------------
+[Wed Jul 23 10:15:55 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_38.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': -9, '%arg1': 1, '%arg2': 1, '%arg3': 1, '%arg4': 1, '%arg5': 1, '%arg6': 1, '%arg7': 1, '%arg8': 1, '%arg9': 1}
+
+real	0m0.419s
+user	0m7.430s
+sys	0m0.048s
+----------------------------------------
+[Wed Jul 23 10:15:56 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_39.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.393s
+user	0m7.412s
+sys	0m0.040s
+----------------------------------------
+[Wed Jul 23 10:15:56 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_40.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.389s
+user	0m7.371s
+sys	0m0.076s
+----------------------------------------
+[Wed Jul 23 10:15:57 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_41.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.411s
+user	0m7.401s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 10:15:57 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_42.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.385s
+user	0m7.396s
+sys	0m0.049s
+----------------------------------------
+[Wed Jul 23 10:15:57 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_43.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100, '%arg2': 1/100}
+
+real	0m0.413s
+user	0m7.418s
+sys	0m0.052s
+----------------------------------------
+[Wed Jul 23 10:15:58 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_44.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.394s
+user	0m7.377s
+sys	0m0.076s
+----------------------------------------
+[Wed Jul 23 10:15:58 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_45.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.426s
+user	0m7.424s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 10:15:59 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_46.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': -9, '%arg1': 1, '%arg2': 1}
+
+real	0m0.414s
+user	0m7.414s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 10:15:59 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_47.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100, '%arg2': 1/100}
+
+real	0m0.418s
+user	0m7.419s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 10:15:59 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_48.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.400s
+user	0m7.403s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 10:16:00 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_49.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.410s
+user	0m7.413s
+sys	0m0.057s
+----------------------------------------
+[Wed Jul 23 10:16:00 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_50.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.408s
+user	0m7.398s
+sys	0m0.068s
+----------------------------------------
+[Wed Jul 23 10:16:01 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_51.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.422s
+user	0m7.408s
+sys	0m0.076s
+----------------------------------------
+[Wed Jul 23 10:16:01 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_52.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.387s
+user	0m7.383s
+sys	0m0.060s
+----------------------------------------
+[Wed Jul 23 10:16:02 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_53.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': -9, '%arg3': 1, '%arg4': 1, '%arg5': 1, '%arg6': 1, '%arg7': 1, '%arg8': 1, '%arg9': 1, '%arg10': 1, '%arg11': 1, '%arg12': 1}
+
+real	0m0.425s
+user	0m7.410s
+sys	0m0.060s
+----------------------------------------
+[Wed Jul 23 10:16:02 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_54.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1, '%arg3': 1, '%arg4': 1, '%arg5': 1, '%arg6': 1, '%arg7': 1}
+
+real	0m0.423s
+user	0m7.421s
+sys	0m0.060s
+----------------------------------------
+[Wed Jul 23 10:16:02 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_55.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.399s
+user	0m7.397s
+sys	0m0.060s
+----------------------------------------
+[Wed Jul 23 10:16:03 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_56.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.383s
+user	0m7.402s
+sys	0m0.036s
+----------------------------------------
+[Wed Jul 23 10:16:03 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_57.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.400s
+user	0m7.392s
+sys	0m0.068s
+----------------------------------------
+[Wed Jul 23 10:16:04 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_58.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.398s
+user	0m7.394s
+sys	0m0.060s
+----------------------------------------
+[Wed Jul 23 10:16:04 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_59.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.404s
+user	0m7.430s
+sys	0m0.028s
+----------------------------------------
+[Wed Jul 23 10:16:04 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_60.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.415s
+user	0m7.435s
+sys	0m0.040s
+----------------------------------------
+[Wed Jul 23 10:16:05 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_61.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.419s
+user	0m7.415s
+sys	0m0.060s
+----------------------------------------
+[Wed Jul 23 10:16:05 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_62.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.400s
+user	0m7.394s
+sys	0m0.064s
+----------------------------------------
+[Wed Jul 23 10:16:06 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_63.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.424s
+user	0m7.422s
+sys	0m0.060s
+----------------------------------------
+[Wed Jul 23 10:16:06 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_64.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.408s
+user	0m7.416s
+sys	0m0.052s
+----------------------------------------
+[Wed Jul 23 10:16:06 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_65.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.406s
+user	0m7.341s
+sys	0m0.123s
+----------------------------------------
+[Wed Jul 23 10:16:07 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_66.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.411s
+user	0m7.399s
+sys	0m0.068s
+----------------------------------------
+[Wed Jul 23 10:16:07 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_67.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.424s
+user	0m7.405s
+sys	0m0.080s
+----------------------------------------
+[Wed Jul 23 10:16:08 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_68.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.417s
+user	0m7.424s
+sys	0m0.052s
+----------------------------------------
+[Wed Jul 23 10:16:08 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_69.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.406s
+user	0m7.316s
+sys	0m0.149s
+----------------------------------------
+[Wed Jul 23 10:16:09 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_70.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': -1/100, '%arg1': -1/100, '%arg2': -1/100, '%arg3': 1/100, '%arg4': 1/100, '%arg5': 1/100, '%arg6': 1/100, '%arg7': 1/100}
+
+real	0m0.427s
+user	0m7.428s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 10:16:09 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_71.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.395s
+user	0m7.341s
+sys	0m0.112s
+----------------------------------------
+[Wed Jul 23 10:16:09 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_72.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.430s
+user	0m7.407s
+sys	0m0.080s
+----------------------------------------
+[Wed Jul 23 10:16:10 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_73.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.414s
+user	0m7.435s
+sys	0m0.040s
+----------------------------------------
+[Wed Jul 23 10:16:10 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_74.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.417s
+user	0m7.418s
+sys	0m0.060s
+----------------------------------------
+[Wed Jul 23 10:16:11 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_75.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': -1/100, '%arg1': -1/100, '%arg2': -1/100, '%arg3': 1/100, '%arg4': 1/100, '%arg5': 1/100, '%arg6': 1/100, '%arg7': 1/100}
+
+real	0m0.422s
+user	0m7.431s
+sys	0m0.048s
+----------------------------------------
+[Wed Jul 23 10:16:11 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_76.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.395s
+user	0m7.390s
+sys	0m0.064s
+----------------------------------------
+[Wed Jul 23 10:16:11 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_77.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1, '%arg3': 1, '%arg4': 1, '%arg5': 1, '%arg6': 1, '%arg7': 1}
+
+real	0m0.412s
+user	0m7.395s
+sys	0m0.076s
+----------------------------------------
+[Wed Jul 23 10:16:12 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_78.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.406s
+user	0m7.405s
+sys	0m0.060s
+----------------------------------------
+[Wed Jul 23 10:16:12 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_79.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.425s
+user	0m7.440s
+sys	0m0.040s
+----------------------------------------
+[Wed Jul 23 10:16:13 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_80.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100, '%arg2': 1/100}
+
+real	0m0.409s
+user	0m7.405s
+sys	0m0.052s
+----------------------------------------
+[Wed Jul 23 10:16:13 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_81.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.411s
+user	0m7.390s
+sys	0m0.081s
+----------------------------------------
+[Wed Jul 23 10:16:14 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_82.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.396s
+user	0m7.371s
+sys	0m0.084s
+----------------------------------------
+[Wed Jul 23 10:16:14 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_83.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': -9, '%arg1': 1, '%arg2': 1}
+
+real	0m0.428s
+user	0m7.425s
+sys	0m0.060s
+----------------------------------------
+[Wed Jul 23 10:16:14 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_84.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100, '%arg2': 1/100}
+
+real	0m0.398s
+user	0m7.406s
+sys	0m0.048s
+----------------------------------------
+[Wed Jul 23 10:16:15 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_85.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': -9, '%arg1': 1, '%arg2': 1, '%arg3': 1, '%arg4': 1/2}
+
+real	0m0.435s
+user	0m7.432s
+sys	0m0.060s
+----------------------------------------
+[Wed Jul 23 10:16:15 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_86.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.410s
+user	0m7.404s
+sys	0m0.064s
+----------------------------------------
+[Wed Jul 23 10:16:16 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_87.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.410s
+user	0m7.392s
+sys	0m0.076s
+----------------------------------------
+[Wed Jul 23 10:16:16 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_88.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.396s
+user	0m7.388s
+sys	0m0.068s
+----------------------------------------
+[Wed Jul 23 10:16:16 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_89.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.398s
+user	0m7.386s
+sys	0m0.068s
+----------------------------------------
+[Wed Jul 23 10:16:17 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_90.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': -1/32, '%arg2': 9, '%arg3': -9, '%arg4': 1, '%arg5': 1, '%arg6': 1, '%arg7': 1/32, '%arg8': -9, '%arg9': 1, '%arg10': 1, '%arg11': 1, '%arg12': 1}
+
+real	0m0.443s
+user	0m7.440s
+sys	0m0.060s
+----------------------------------------
+[Wed Jul 23 10:16:17 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_91.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.384s
+user	0m7.390s
+sys	0m0.052s
+----------------------------------------
+[Wed Jul 23 10:16:18 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_92.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': -1/32, '%arg2': 9, '%arg3': -9, '%arg4': 1, '%arg5': 1, '%arg6': 1, '%arg7': 1/32, '%arg8': -9, '%arg9': 1, '%arg10': 1, '%arg11': 1, '%arg12': 1}
+
+real	0m0.428s
+user	0m7.407s
+sys	0m0.080s
+----------------------------------------
+[Wed Jul 23 10:16:18 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_93.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': -9, '%arg2': 1, '%arg3': -9, '%arg4': -9, '%arg5': 1, '%arg6': 1, '%arg7': 1, '%arg8': 1, '%arg9': 1, '%arg10': 1, '%arg11': 1, '%arg12': 1, '%arg13': 1, '%arg14': 1, '%arg15': 1, '%arg16': 1, '%arg17': 1, '%arg18': 1, '%arg19': 1, '%arg20': 1, '%arg21': 1, '%arg22': 1, '%arg23': 1, '%arg24': 1, '%arg25': 1, '%arg26': 1, '%arg27': 1, '%arg28': 1, '%arg29': 1, '%arg30': 1}
+
+real	0m14.455s
+user	0m21.419s
+sys	0m0.096s
+----------------------------------------
+[Wed Jul 23 10:16:33 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_94.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': -9, '%arg2': 1, '%arg3': 1, '%arg4': 1, '%arg5': 1, '%arg6': 1, '%arg7': 1, '%arg8': 1}
+
+real	0m0.402s
+user	0m7.403s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 10:16:33 UTC 2025] Processing: /home/genesis/0611/ad-2k/predict_online_95.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1, '%arg3': 1, '%arg4': 1, '%arg5': -9, '%arg6': -9, '%arg7': 1, '%arg8': -9, '%arg9': 1, '%arg10': 1, '%arg11': 1, '%arg12': 1, '%arg13': 1, '%arg14': 1, '%arg15': 1, '%arg16': 1, '%arg17': 1, '%arg18': 1, '%arg19': 1, '%arg20': 1, '%arg21': 1, '%arg22': 1, '%arg23': 1, '%arg24': 1/16, '%arg25': 1, '%arg26': 1, '%arg27': 1, '%arg28': 1, '%arg29': 1, '%arg30': 1, '%arg31': 1, '%arg32': 1, '%arg33': 1, '%arg34': 1, '%arg35': 1, '%arg36': 1, '%arg37': 1, '%arg38': 1, '%arg39': 1, '%arg40': 1, '%arg41': 1, '%arg42': 1/16, '%arg43': 1, '%arg44': 1, '%arg45': 1, '%arg46': 1}
+
+real	0m17.172s
+user	0m24.166s
+sys	0m0.072s
+----------------------------------------
+==== Completed: 0611_ad_2k.log ====

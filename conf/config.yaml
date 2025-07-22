@@ -1,0 +1,31 @@
+file_path: "xxx"
+
+# Solver configuration
+solver:
+  # Input value range constraints
+  negative_min_val: -10.0
+  negative_max_val: -0.01
+  positive_min_val: 0.01
+  positive_max_val: 10.0
+  
+  # Range for operation results (F16)
+  f16_min: -60000.0
+  f16_max: 60000.0
+  
+  # Range for operation results (F32)
+  f32_min: -1e30
+  f32_max: 1e30
+  
+  # Maximum dynamic dimension size
+  max_dynamic_dim: 2048
+
+  timeout: 300  # Timeout in seconds
+
+defaults:
+  - override hydra/hydra_logging: disabled
+  - override hydra/job_logging: disabled
+ 
+hydra:
+  run:
+    dir: .
+  output_subdir: null

@@ -1,0 +1,3620 @@
+==== Starting test: 0512_seq.log ====
+[Wed Jul 23 09:50:09 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_0.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/2}
+
+real	0m0.584s
+user	0m7.593s
+sys	0m0.048s
+----------------------------------------
+[Wed Jul 23 09:50:09 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_1.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.394s
+user	0m7.402s
+sys	0m0.048s
+----------------------------------------
+[Wed Jul 23 09:50:10 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_2.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.401s
+user	0m7.423s
+sys	0m0.036s
+----------------------------------------
+[Wed Jul 23 09:50:10 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_3.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.397s
+user	0m7.406s
+sys	0m0.052s
+----------------------------------------
+[Wed Jul 23 09:50:10 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_4.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.407s
+user	0m7.410s
+sys	0m0.052s
+----------------------------------------
+[Wed Jul 23 09:50:11 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_5.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.428s
+user	0m7.447s
+sys	0m0.040s
+----------------------------------------
+[Wed Jul 23 09:50:11 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_6.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.392s
+user	0m7.384s
+sys	0m0.064s
+----------------------------------------
+[Wed Jul 23 09:50:12 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_7.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.417s
+user	0m7.407s
+sys	0m0.064s
+----------------------------------------
+[Wed Jul 23 09:50:12 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_8.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.416s
+user	0m7.424s
+sys	0m0.044s
+----------------------------------------
+[Wed Jul 23 09:50:13 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_9.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.382s
+user	0m7.368s
+sys	0m0.072s
+----------------------------------------
+[Wed Jul 23 09:50:13 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_10.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.403s
+user	0m7.391s
+sys	0m0.068s
+----------------------------------------
+[Wed Jul 23 09:50:13 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_11.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.403s
+user	0m7.391s
+sys	0m0.068s
+----------------------------------------
+[Wed Jul 23 09:50:14 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_12.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.443s
+user	0m7.410s
+sys	0m0.064s
+----------------------------------------
+[Wed Jul 23 09:50:14 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_13.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.396s
+user	0m7.398s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 09:50:15 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_14.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.396s
+user	0m7.378s
+sys	0m0.072s
+----------------------------------------
+[Wed Jul 23 09:50:15 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_15.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.393s
+user	0m7.411s
+sys	0m0.036s
+----------------------------------------
+[Wed Jul 23 09:50:15 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_16.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.399s
+user	0m7.397s
+sys	0m0.060s
+----------------------------------------
+[Wed Jul 23 09:50:16 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_17.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.394s
+user	0m7.401s
+sys	0m0.052s
+----------------------------------------
+[Wed Jul 23 09:50:16 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_18.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.426s
+user	0m7.365s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 09:50:17 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_19.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.403s
+user	0m7.269s
+sys	0m0.192s
+----------------------------------------
+[Wed Jul 23 09:50:17 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_20.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.398s
+user	0m7.386s
+sys	0m0.064s
+----------------------------------------
+[Wed Jul 23 09:50:17 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_21.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.416s
+user	0m7.370s
+sys	0m0.068s
+----------------------------------------
+[Wed Jul 23 09:50:18 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_22.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.406s
+user	0m7.416s
+sys	0m0.044s
+----------------------------------------
+[Wed Jul 23 09:50:18 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_23.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.400s
+user	0m7.410s
+sys	0m0.048s
+----------------------------------------
+[Wed Jul 23 09:50:19 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_24.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.422s
+user	0m7.420s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 09:50:19 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_25.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.392s
+user	0m7.390s
+sys	0m0.052s
+----------------------------------------
+[Wed Jul 23 09:50:19 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_26.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.435s
+user	0m7.429s
+sys	0m0.064s
+----------------------------------------
+[Wed Jul 23 09:50:20 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_27.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.401s
+user	0m7.272s
+sys	0m0.189s
+----------------------------------------
+[Wed Jul 23 09:50:20 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_28.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.401s
+user	0m7.397s
+sys	0m0.060s
+----------------------------------------
+[Wed Jul 23 09:50:21 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_29.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.396s
+user	0m7.413s
+sys	0m0.040s
+----------------------------------------
+[Wed Jul 23 09:50:21 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_30.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.411s
+user	0m7.419s
+sys	0m0.040s
+----------------------------------------
+[Wed Jul 23 09:50:22 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_31.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.464s
+user	0m7.453s
+sys	0m0.068s
+----------------------------------------
+[Wed Jul 23 09:50:22 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_32.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.440s
+user	0m7.433s
+sys	0m0.060s
+----------------------------------------
+[Wed Jul 23 09:50:22 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_33.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.417s
+user	0m7.284s
+sys	0m0.193s
+----------------------------------------
+[Wed Jul 23 09:50:23 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_34.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.414s
+user	0m7.432s
+sys	0m0.036s
+----------------------------------------
+[Wed Jul 23 09:50:23 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_35.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.430s
+user	0m7.429s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 09:50:24 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_36.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.451s
+user	0m7.467s
+sys	0m0.044s
+----------------------------------------
+[Wed Jul 23 09:50:24 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_37.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.417s
+user	0m7.411s
+sys	0m0.064s
+----------------------------------------
+[Wed Jul 23 09:50:25 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_38.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.410s
+user	0m7.324s
+sys	0m0.142s
+----------------------------------------
+[Wed Jul 23 09:50:25 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_39.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.407s
+user	0m7.369s
+sys	0m0.107s
+----------------------------------------
+[Wed Jul 23 09:50:25 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_40.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.460s
+user	0m7.459s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 09:50:26 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_41.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.404s
+user	0m7.408s
+sys	0m0.052s
+----------------------------------------
+[Wed Jul 23 09:50:26 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_42.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.413s
+user	0m7.336s
+sys	0m0.139s
+----------------------------------------
+[Wed Jul 23 09:50:27 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_43.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.408s
+user	0m7.412s
+sys	0m0.064s
+----------------------------------------
+[Wed Jul 23 09:50:27 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_44.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': -208077/327700}
+
+real	0m0.411s
+user	0m7.416s
+sys	0m0.040s
+----------------------------------------
+[Wed Jul 23 09:50:28 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_45.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.421s
+user	0m7.412s
+sys	0m0.068s
+----------------------------------------
+[Wed Jul 23 09:50:28 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_46.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': -208077/327700}
+
+real	0m0.412s
+user	0m7.387s
+sys	0m0.072s
+----------------------------------------
+[Wed Jul 23 09:50:28 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_47.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.402s
+user	0m7.403s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 09:50:29 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_48.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': -208077/327700}
+
+real	0m0.407s
+user	0m7.414s
+sys	0m0.052s
+----------------------------------------
+[Wed Jul 23 09:50:29 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_49.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.417s
+user	0m7.414s
+sys	0m0.060s
+----------------------------------------
+[Wed Jul 23 09:50:30 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_50.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': -208077/327700}
+
+real	0m0.438s
+user	0m7.440s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 09:50:30 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_51.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.414s
+user	0m7.408s
+sys	0m0.064s
+----------------------------------------
+[Wed Jul 23 09:50:30 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_52.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.520s
+user	0m7.515s
+sys	0m0.060s
+----------------------------------------
+[Wed Jul 23 09:50:31 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_53.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.413s
+user	0m7.435s
+sys	0m0.037s
+----------------------------------------
+[Wed Jul 23 09:50:31 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_54.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.417s
+user	0m7.432s
+sys	0m0.048s
+----------------------------------------
+[Wed Jul 23 09:50:32 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_55.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.462s
+user	0m7.450s
+sys	0m0.068s
+----------------------------------------
+[Wed Jul 23 09:50:32 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_56.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.465s
+user	0m7.428s
+sys	0m0.072s
+----------------------------------------
+[Wed Jul 23 09:50:33 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_57.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.392s
+user	0m7.411s
+sys	0m0.064s
+----------------------------------------
+[Wed Jul 23 09:50:33 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_58.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.415s
+user	0m7.416s
+sys	0m0.048s
+----------------------------------------
+[Wed Jul 23 09:50:34 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_59.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.410s
+user	0m7.400s
+sys	0m0.068s
+----------------------------------------
+[Wed Jul 23 09:50:34 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_60.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.410s
+user	0m7.341s
+sys	0m0.127s
+----------------------------------------
+[Wed Jul 23 09:50:34 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_61.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.487s
+user	0m7.456s
+sys	0m0.084s
+----------------------------------------
+[Wed Jul 23 09:50:35 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_62.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.402s
+user	0m7.405s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 09:50:35 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_63.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.409s
+user	0m7.256s
+sys	0m0.212s
+----------------------------------------
+[Wed Jul 23 09:50:36 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_64.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.415s
+user	0m7.416s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 09:50:36 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_65.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.409s
+user	0m7.404s
+sys	0m0.064s
+----------------------------------------
+[Wed Jul 23 09:50:37 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_66.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.430s
+user	0m7.429s
+sys	0m0.040s
+----------------------------------------
+[Wed Jul 23 09:50:37 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_67.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': -208077/327700}
+
+real	0m0.422s
+user	0m7.437s
+sys	0m0.044s
+----------------------------------------
+[Wed Jul 23 09:50:37 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_68.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.407s
+user	0m7.398s
+sys	0m0.068s
+----------------------------------------
+[Wed Jul 23 09:50:38 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_69.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': -208077/327700}
+
+real	0m0.409s
+user	0m7.400s
+sys	0m0.068s
+----------------------------------------
+[Wed Jul 23 09:50:38 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_70.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.405s
+user	0m7.317s
+sys	0m0.162s
+----------------------------------------
+[Wed Jul 23 09:50:39 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_71.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': -208077/327700}
+
+real	0m0.417s
+user	0m7.412s
+sys	0m0.064s
+----------------------------------------
+[Wed Jul 23 09:50:39 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_72.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.406s
+user	0m7.397s
+sys	0m0.072s
+----------------------------------------
+[Wed Jul 23 09:50:39 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_73.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': -208077/327700}
+
+real	0m0.416s
+user	0m7.434s
+sys	0m0.040s
+----------------------------------------
+[Wed Jul 23 09:50:40 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_74.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.402s
+user	0m7.416s
+sys	0m0.044s
+----------------------------------------
+[Wed Jul 23 09:50:40 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_75.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.413s
+user	0m7.335s
+sys	0m0.127s
+----------------------------------------
+[Wed Jul 23 09:50:41 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_76.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.402s
+user	0m7.399s
+sys	0m0.060s
+----------------------------------------
+[Wed Jul 23 09:50:41 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_77.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.392s
+user	0m7.393s
+sys	0m0.060s
+----------------------------------------
+[Wed Jul 23 09:50:42 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_78.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.409s
+user	0m7.390s
+sys	0m0.076s
+----------------------------------------
+[Wed Jul 23 09:50:42 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_79.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.574s
+user	0m7.536s
+sys	0m0.068s
+----------------------------------------
+[Wed Jul 23 09:50:43 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_80.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.394s
+user	0m7.390s
+sys	0m0.060s
+----------------------------------------
+[Wed Jul 23 09:50:43 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_81.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.413s
+user	0m7.416s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 09:50:43 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_82.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.389s
+user	0m7.391s
+sys	0m0.057s
+----------------------------------------
+[Wed Jul 23 09:50:44 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_83.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.467s
+user	0m7.352s
+sys	0m0.052s
+----------------------------------------
+[Wed Jul 23 09:50:44 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_84.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.426s
+user	0m7.419s
+sys	0m0.060s
+----------------------------------------
+[Wed Jul 23 09:50:45 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_85.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.409s
+user	0m7.422s
+sys	0m0.044s
+----------------------------------------
+[Wed Jul 23 09:50:45 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_86.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.412s
+user	0m7.407s
+sys	0m0.060s
+----------------------------------------
+[Wed Jul 23 09:50:45 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_87.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.403s
+user	0m7.426s
+sys	0m0.036s
+----------------------------------------
+[Wed Jul 23 09:50:46 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_88.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.436s
+user	0m7.454s
+sys	0m0.040s
+----------------------------------------
+[Wed Jul 23 09:50:46 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_89.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.427s
+user	0m7.425s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 09:50:47 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_90.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': -208077/327700}
+
+real	0m0.428s
+user	0m7.435s
+sys	0m0.052s
+----------------------------------------
+[Wed Jul 23 09:50:47 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_91.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.558s
+user	0m7.547s
+sys	0m0.068s
+----------------------------------------
+[Wed Jul 23 09:50:48 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_92.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': -208077/327700}
+
+real	0m0.417s
+user	0m7.425s
+sys	0m0.052s
+----------------------------------------
+[Wed Jul 23 09:50:48 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_93.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.405s
+user	0m7.424s
+sys	0m0.040s
+----------------------------------------
+[Wed Jul 23 09:50:49 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_94.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': -208077/327700}
+
+real	0m0.412s
+user	0m7.395s
+sys	0m0.076s
+----------------------------------------
+[Wed Jul 23 09:50:49 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_95.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.435s
+user	0m7.450s
+sys	0m0.044s
+----------------------------------------
+[Wed Jul 23 09:50:49 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_96.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': -208077/327700}
+
+real	0m0.416s
+user	0m7.419s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 09:50:50 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_97.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.435s
+user	0m7.420s
+sys	0m0.068s
+----------------------------------------
+[Wed Jul 23 09:50:50 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_98.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.416s
+user	0m7.439s
+sys	0m0.036s
+----------------------------------------
+[Wed Jul 23 09:50:51 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_99.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.406s
+user	0m7.416s
+sys	0m0.048s
+----------------------------------------
+[Wed Jul 23 09:50:51 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_100.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.412s
+user	0m7.420s
+sys	0m0.044s
+----------------------------------------
+[Wed Jul 23 09:50:52 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_101.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.501s
+user	0m7.511s
+sys	0m0.048s
+----------------------------------------
+[Wed Jul 23 09:50:52 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_102.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.427s
+user	0m7.431s
+sys	0m0.052s
+----------------------------------------
+[Wed Jul 23 09:50:52 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_103.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.413s
+user	0m7.429s
+sys	0m0.044s
+----------------------------------------
+[Wed Jul 23 09:50:53 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_104.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.454s
+user	0m7.260s
+sys	0m0.081s
+----------------------------------------
+[Wed Jul 23 09:50:53 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_105.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.417s
+user	0m7.416s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 09:50:54 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_106.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.442s
+user	0m7.447s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 09:50:54 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_107.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.472s
+user	0m7.468s
+sys	0m0.060s
+----------------------------------------
+[Wed Jul 23 09:50:55 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_108.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.501s
+user	0m7.433s
+sys	0m0.115s
+----------------------------------------
+[Wed Jul 23 09:50:55 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_109.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.406s
+user	0m7.426s
+sys	0m0.036s
+----------------------------------------
+[Wed Jul 23 09:50:56 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_110.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.425s
+user	0m7.432s
+sys	0m0.052s
+----------------------------------------
+[Wed Jul 23 09:50:56 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_111.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.413s
+user	0m7.415s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 09:50:56 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_112.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.449s
+user	0m7.425s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 09:50:57 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_113.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.413s
+user	0m7.435s
+sys	0m0.032s
+----------------------------------------
+[Wed Jul 23 09:50:57 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_114.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.411s
+user	0m7.433s
+sys	0m0.036s
+----------------------------------------
+[Wed Jul 23 09:50:58 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_115.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.427s
+user	0m7.401s
+sys	0m0.064s
+----------------------------------------
+[Wed Jul 23 09:50:58 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_116.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.410s
+user	0m7.422s
+sys	0m0.044s
+----------------------------------------
+[Wed Jul 23 09:50:59 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_117.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.411s
+user	0m7.410s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 09:50:59 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_118.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.403s
+user	0m7.421s
+sys	0m0.036s
+----------------------------------------
+[Wed Jul 23 09:50:59 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_119.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.386s
+user	0m7.382s
+sys	0m0.060s
+----------------------------------------
+[Wed Jul 23 09:51:00 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_120.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.400s
+user	0m7.417s
+sys	0m0.044s
+----------------------------------------
+[Wed Jul 23 09:51:00 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_121.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.387s
+user	0m7.408s
+sys	0m0.036s
+----------------------------------------
+[Wed Jul 23 09:51:01 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_122.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.405s
+user	0m7.417s
+sys	0m0.044s
+----------------------------------------
+[Wed Jul 23 09:51:01 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_123.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.410s
+user	0m7.408s
+sys	0m0.044s
+----------------------------------------
+[Wed Jul 23 09:51:01 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_124.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.417s
+user	0m7.416s
+sys	0m0.060s
+----------------------------------------
+[Wed Jul 23 09:51:02 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_125.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.417s
+user	0m7.437s
+sys	0m0.032s
+----------------------------------------
+[Wed Jul 23 09:51:02 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_126.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.437s
+user	0m7.430s
+sys	0m0.060s
+----------------------------------------
+[Wed Jul 23 09:51:03 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_127.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.412s
+user	0m7.422s
+sys	0m0.048s
+----------------------------------------
+[Wed Jul 23 09:51:03 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_128.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1, '%arg3': 1}
+
+real	0m0.421s
+user	0m7.411s
+sys	0m0.040s
+----------------------------------------
+[Wed Jul 23 09:51:04 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_129.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1, '%arg3': 1}
+
+real	0m0.427s
+user	0m7.444s
+sys	0m0.040s
+----------------------------------------
+[Wed Jul 23 09:51:04 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_130.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.443s
+user	0m7.375s
+sys	0m0.064s
+----------------------------------------
+[Wed Jul 23 09:51:04 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_131.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.423s
+user	0m7.418s
+sys	0m0.064s
+----------------------------------------
+[Wed Jul 23 09:51:05 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_132.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.632s
+user	0m7.600s
+sys	0m0.084s
+----------------------------------------
+[Wed Jul 23 09:51:05 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_133.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1}
+
+real	0m0.507s
+user	0m7.228s
+sys	0m0.047s
+----------------------------------------
+[Wed Jul 23 09:51:06 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_134.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1}
+
+real	0m0.410s
+user	0m7.419s
+sys	0m0.048s
+----------------------------------------
+[Wed Jul 23 09:51:06 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_135.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1}
+
+real	0m0.414s
+user	0m7.320s
+sys	0m0.154s
+----------------------------------------
+[Wed Jul 23 09:51:07 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_136.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1}
+
+real	0m0.408s
+user	0m7.415s
+sys	0m0.052s
+----------------------------------------
+[Wed Jul 23 09:51:07 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_137.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1}
+
+real	0m0.413s
+user	0m7.417s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 09:51:08 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_138.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1}
+
+real	0m0.420s
+user	0m7.414s
+sys	0m0.064s
+----------------------------------------
+[Wed Jul 23 09:51:08 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_139.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1}
+
+real	0m0.445s
+user	0m7.426s
+sys	0m0.076s
+----------------------------------------
+[Wed Jul 23 09:51:09 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_140.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1}
+
+real	0m0.418s
+user	0m7.421s
+sys	0m0.052s
+----------------------------------------
+[Wed Jul 23 09:51:09 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_141.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.416s
+user	0m7.405s
+sys	0m0.068s
+----------------------------------------
+[Wed Jul 23 09:51:09 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_142.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.399s
+user	0m7.399s
+sys	0m0.060s
+----------------------------------------
+[Wed Jul 23 09:51:10 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_143.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1}
+
+real	0m0.416s
+user	0m7.385s
+sys	0m0.087s
+----------------------------------------
+[Wed Jul 23 09:51:10 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_144.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1}
+
+real	0m0.447s
+user	0m7.426s
+sys	0m0.064s
+----------------------------------------
+[Wed Jul 23 09:51:11 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_145.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1}
+
+real	0m0.419s
+user	0m7.434s
+sys	0m0.044s
+----------------------------------------
+[Wed Jul 23 09:51:11 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_146.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1}
+
+real	0m0.415s
+user	0m7.432s
+sys	0m0.036s
+----------------------------------------
+[Wed Jul 23 09:51:11 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_147.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1}
+
+real	0m0.409s
+user	0m7.405s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 09:51:12 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_148.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1}
+
+real	0m0.425s
+user	0m7.405s
+sys	0m0.076s
+----------------------------------------
+[Wed Jul 23 09:51:12 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_149.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1}
+
+real	0m0.442s
+user	0m7.436s
+sys	0m0.064s
+----------------------------------------
+[Wed Jul 23 09:51:13 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_150.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1}
+
+real	0m0.429s
+user	0m7.411s
+sys	0m0.076s
+----------------------------------------
+[Wed Jul 23 09:51:13 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_151.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.427s
+user	0m7.413s
+sys	0m0.064s
+----------------------------------------
+[Wed Jul 23 09:51:14 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_152.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.412s
+user	0m7.437s
+sys	0m0.036s
+----------------------------------------
+[Wed Jul 23 09:51:14 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_153.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.449s
+user	0m7.457s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 09:51:14 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_154.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.405s
+user	0m7.418s
+sys	0m0.044s
+----------------------------------------
+[Wed Jul 23 09:51:15 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_155.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100, '%arg2': 1/100}
+
+real	0m0.428s
+user	0m7.438s
+sys	0m0.048s
+----------------------------------------
+[Wed Jul 23 09:51:15 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_156.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.420s
+user	0m7.411s
+sys	0m0.064s
+----------------------------------------
+[Wed Jul 23 09:51:16 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_157.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.413s
+user	0m7.415s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 09:51:16 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_158.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100, '%arg2': 1/100}
+
+real	0m0.404s
+user	0m7.398s
+sys	0m0.064s
+----------------------------------------
+[Wed Jul 23 09:51:17 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_159.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.413s
+user	0m7.424s
+sys	0m0.048s
+----------------------------------------
+[Wed Jul 23 09:51:17 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_160.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100, '%arg2': 1/100}
+
+real	0m0.400s
+user	0m7.401s
+sys	0m0.057s
+----------------------------------------
+[Wed Jul 23 09:51:17 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_161.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.432s
+user	0m7.464s
+sys	0m0.061s
+----------------------------------------
+[Wed Jul 23 09:51:18 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_162.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.427s
+user	0m7.431s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 09:51:18 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_163.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100, '%arg2': 1/100}
+
+real	0m0.412s
+user	0m7.434s
+sys	0m0.036s
+----------------------------------------
+[Wed Jul 23 09:51:19 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_164.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.429s
+user	0m7.393s
+sys	0m0.096s
+----------------------------------------
+[Wed Jul 23 09:51:19 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_165.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.412s
+user	0m7.421s
+sys	0m0.048s
+----------------------------------------
+[Wed Jul 23 09:51:20 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_166.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100, '%arg2': 1/100}
+
+real	0m0.404s
+user	0m7.411s
+sys	0m0.052s
+----------------------------------------
+[Wed Jul 23 09:51:20 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_167.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.413s
+user	0m7.400s
+sys	0m0.072s
+----------------------------------------
+[Wed Jul 23 09:51:20 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_168.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100, '%arg2': 1/100}
+
+real	0m0.418s
+user	0m7.403s
+sys	0m0.072s
+----------------------------------------
+[Wed Jul 23 09:51:21 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_169.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.407s
+user	0m7.366s
+sys	0m0.100s
+----------------------------------------
+[Wed Jul 23 09:51:21 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_170.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.400s
+user	0m7.414s
+sys	0m0.044s
+----------------------------------------
+[Wed Jul 23 09:51:22 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_171.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1, '%arg3': 1}
+
+real	0m0.404s
+user	0m7.411s
+sys	0m0.052s
+----------------------------------------
+[Wed Jul 23 09:51:22 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_172.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1, '%arg3': 1}
+
+real	0m0.438s
+user	0m7.417s
+sys	0m0.060s
+----------------------------------------
+[Wed Jul 23 09:51:22 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_173.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.410s
+user	0m7.415s
+sys	0m0.052s
+----------------------------------------
+[Wed Jul 23 09:51:23 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_174.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.416s
+user	0m7.397s
+sys	0m0.076s
+----------------------------------------
+[Wed Jul 23 09:51:23 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_175.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.415s
+user	0m7.417s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 09:51:24 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_176.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.419s
+user	0m7.430s
+sys	0m0.048s
+----------------------------------------
+[Wed Jul 23 09:51:24 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_177.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1, '%arg3': 1}
+
+real	0m0.416s
+user	0m7.419s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 09:51:25 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_178.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1, '%arg3': 1}
+
+real	0m0.402s
+user	0m7.394s
+sys	0m0.064s
+----------------------------------------
+[Wed Jul 23 09:51:25 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_179.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.403s
+user	0m7.396s
+sys	0m0.068s
+----------------------------------------
+[Wed Jul 23 09:51:25 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_180.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.453s
+user	0m7.452s
+sys	0m0.040s
+----------------------------------------
+[Wed Jul 23 09:51:26 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_181.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.446s
+user	0m7.421s
+sys	0m0.072s
+----------------------------------------
+[Wed Jul 23 09:51:26 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_182.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.406s
+user	0m7.374s
+sys	0m0.072s
+----------------------------------------
+[Wed Jul 23 09:51:27 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_183.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.380s
+user	0m7.377s
+sys	0m0.060s
+----------------------------------------
+[Wed Jul 23 09:51:27 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_184.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1, '%arg3': 1, '%arg4': 1}
+
+real	0m0.406s
+user	0m7.410s
+sys	0m0.052s
+----------------------------------------
+[Wed Jul 23 09:51:27 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_185.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1, '%arg3': 1}
+
+real	0m0.419s
+user	0m7.409s
+sys	0m0.064s
+----------------------------------------
+[Wed Jul 23 09:51:28 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_186.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1, '%arg3': 1}
+
+real	0m0.395s
+user	0m7.374s
+sys	0m0.076s
+----------------------------------------
+[Wed Jul 23 09:51:28 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_187.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.397s
+user	0m7.419s
+sys	0m0.036s
+----------------------------------------
+[Wed Jul 23 09:51:29 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_188.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.542s
+user	0m7.527s
+sys	0m0.072s
+----------------------------------------
+[Wed Jul 23 09:51:29 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_189.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.407s
+user	0m7.407s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 09:51:30 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_190.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.425s
+user	0m7.427s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 09:51:30 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_191.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.403s
+user	0m7.400s
+sys	0m0.060s
+----------------------------------------
+[Wed Jul 23 09:51:30 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_192.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.445s
+user	0m7.309s
+sys	0m0.189s
+----------------------------------------
+[Wed Jul 23 09:51:31 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_193.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.427s
+user	0m7.419s
+sys	0m0.060s
+----------------------------------------
+[Wed Jul 23 09:51:31 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_194.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.409s
+user	0m7.377s
+sys	0m0.088s
+----------------------------------------
+[Wed Jul 23 09:51:32 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_195.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.416s
+user	0m7.421s
+sys	0m0.052s
+----------------------------------------
+[Wed Jul 23 09:51:32 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_196.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.406s
+user	0m7.409s
+sys	0m0.052s
+----------------------------------------
+[Wed Jul 23 09:51:33 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_197.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.418s
+user	0m7.416s
+sys	0m0.060s
+----------------------------------------
+[Wed Jul 23 09:51:33 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_198.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1, '%arg3': 1, '%arg4': 1}
+
+real	0m0.429s
+user	0m7.429s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 09:51:33 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_199.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1, '%arg3': 1}
+
+real	0m0.439s
+user	0m7.429s
+sys	0m0.068s
+----------------------------------------
+[Wed Jul 23 09:51:34 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_200.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1, '%arg3': 1}
+
+real	0m0.441s
+user	0m7.449s
+sys	0m0.044s
+----------------------------------------
+[Wed Jul 23 09:51:34 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_201.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.407s
+user	0m7.302s
+sys	0m0.162s
+----------------------------------------
+[Wed Jul 23 09:51:35 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_202.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.451s
+user	0m7.438s
+sys	0m0.072s
+----------------------------------------
+[Wed Jul 23 09:51:35 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_203.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.439s
+user	0m7.429s
+sys	0m0.064s
+----------------------------------------
+[Wed Jul 23 09:51:36 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_204.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.455s
+user	0m7.443s
+sys	0m0.064s
+----------------------------------------
+[Wed Jul 23 09:51:36 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_205.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.415s
+user	0m7.435s
+sys	0m0.032s
+----------------------------------------
+[Wed Jul 23 09:51:37 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_206.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.410s
+user	0m7.410s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 09:51:37 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_207.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.409s
+user	0m7.401s
+sys	0m0.068s
+----------------------------------------
+[Wed Jul 23 09:51:37 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_208.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.406s
+user	0m7.362s
+sys	0m0.044s
+----------------------------------------
+[Wed Jul 23 09:51:38 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_209.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.406s
+user	0m7.409s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 09:51:38 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_210.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': -208077/327700}
+
+real	0m0.420s
+user	0m7.427s
+sys	0m0.048s
+----------------------------------------
+[Wed Jul 23 09:51:39 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_211.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.417s
+user	0m7.429s
+sys	0m0.044s
+----------------------------------------
+[Wed Jul 23 09:51:39 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_212.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': -208077/327700}
+
+real	0m0.410s
+user	0m7.275s
+sys	0m0.194s
+----------------------------------------
+[Wed Jul 23 09:51:39 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_213.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.407s
+user	0m7.290s
+sys	0m0.178s
+----------------------------------------
+[Wed Jul 23 09:51:40 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_214.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.413s
+user	0m7.412s
+sys	0m0.060s
+----------------------------------------
+[Wed Jul 23 09:51:40 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_215.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.414s
+user	0m7.394s
+sys	0m0.076s
+----------------------------------------
+[Wed Jul 23 09:51:41 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_216.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.406s
+user	0m7.397s
+sys	0m0.064s
+----------------------------------------
+[Wed Jul 23 09:51:41 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_217.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.452s
+user	0m7.308s
+sys	0m0.114s
+----------------------------------------
+[Wed Jul 23 09:51:42 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_218.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.433s
+user	0m7.443s
+sys	0m0.028s
+----------------------------------------
+[Wed Jul 23 09:51:42 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_219.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.466s
+user	0m7.440s
+sys	0m0.096s
+----------------------------------------
+[Wed Jul 23 09:51:42 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_220.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.421s
+user	0m7.413s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 09:51:43 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_221.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.425s
+user	0m7.428s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 09:51:43 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_222.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': -208077/327700}
+
+real	0m0.427s
+user	0m7.399s
+sys	0m0.068s
+----------------------------------------
+[Wed Jul 23 09:51:44 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_223.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.410s
+user	0m7.390s
+sys	0m0.080s
+----------------------------------------
+[Wed Jul 23 09:51:44 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_224.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.406s
+user	0m7.430s
+sys	0m0.036s
+----------------------------------------
+[Wed Jul 23 09:51:45 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_225.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.424s
+user	0m7.433s
+sys	0m0.052s
+----------------------------------------
+[Wed Jul 23 09:51:45 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_226.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1, '%arg3': 1, '%arg4': 1}
+
+real	0m0.435s
+user	0m7.437s
+sys	0m0.052s
+----------------------------------------
+[Wed Jul 23 09:51:45 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_227.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1, '%arg3': 1}
+
+real	0m0.422s
+user	0m7.422s
+sys	0m0.060s
+----------------------------------------
+[Wed Jul 23 09:51:46 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_228.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1, '%arg3': 1}
+
+real	0m0.404s
+user	0m7.416s
+sys	0m0.045s
+----------------------------------------
+[Wed Jul 23 09:51:46 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_229.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.423s
+user	0m7.368s
+sys	0m0.127s
+----------------------------------------
+[Wed Jul 23 09:51:47 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_230.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.400s
+user	0m7.399s
+sys	0m0.060s
+----------------------------------------
+[Wed Jul 23 09:51:47 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_231.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.407s
+user	0m7.412s
+sys	0m0.052s
+----------------------------------------
+[Wed Jul 23 09:51:48 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_232.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.405s
+user	0m7.416s
+sys	0m0.048s
+----------------------------------------
+[Wed Jul 23 09:51:48 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_233.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.424s
+user	0m7.429s
+sys	0m0.052s
+----------------------------------------
+[Wed Jul 23 09:51:48 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_234.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.406s
+user	0m7.417s
+sys	0m0.048s
+----------------------------------------
+[Wed Jul 23 09:51:49 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_235.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.413s
+user	0m7.406s
+sys	0m0.064s
+----------------------------------------
+[Wed Jul 23 09:51:49 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_236.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.408s
+user	0m7.423s
+sys	0m0.044s
+----------------------------------------
+[Wed Jul 23 09:51:50 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_237.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.432s
+user	0m7.418s
+sys	0m0.048s
+----------------------------------------
+[Wed Jul 23 09:51:50 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_238.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': -208077/327700}
+
+real	0m0.433s
+user	0m7.447s
+sys	0m0.044s
+----------------------------------------
+[Wed Jul 23 09:51:50 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_239.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.442s
+user	0m7.459s
+sys	0m0.040s
+----------------------------------------
+[Wed Jul 23 09:51:51 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_240.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.419s
+user	0m7.415s
+sys	0m0.064s
+----------------------------------------
+[Wed Jul 23 09:51:51 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_241.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.406s
+user	0m7.393s
+sys	0m0.072s
+----------------------------------------
+[Wed Jul 23 09:51:52 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_242.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.401s
+user	0m7.401s
+sys	0m0.060s
+----------------------------------------
+[Wed Jul 23 09:51:52 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_243.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.432s
+user	0m7.449s
+sys	0m0.040s
+----------------------------------------
+[Wed Jul 23 09:51:53 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_244.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.422s
+user	0m7.412s
+sys	0m0.052s
+----------------------------------------
+[Wed Jul 23 09:51:53 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_245.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.397s
+user	0m7.405s
+sys	0m0.052s
+----------------------------------------
+[Wed Jul 23 09:51:53 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_246.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.404s
+user	0m7.408s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 09:51:54 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_247.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.409s
+user	0m7.407s
+sys	0m0.060s
+----------------------------------------
+[Wed Jul 23 09:51:54 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_248.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.440s
+user	0m7.406s
+sys	0m0.093s
+----------------------------------------
+[Wed Jul 23 09:51:55 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_249.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1, '%arg3': 1, '%arg4': 1}
+
+real	0m0.407s
+user	0m7.378s
+sys	0m0.088s
+----------------------------------------
+[Wed Jul 23 09:51:55 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_250.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1, '%arg3': 1}
+
+real	0m0.408s
+user	0m7.414s
+sys	0m0.052s
+----------------------------------------
+[Wed Jul 23 09:51:56 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_251.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1, '%arg3': 1}
+
+real	0m0.430s
+user	0m7.368s
+sys	0m0.123s
+----------------------------------------
+[Wed Jul 23 09:51:56 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_252.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.411s
+user	0m7.395s
+sys	0m0.076s
+----------------------------------------
+[Wed Jul 23 09:51:56 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_253.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.408s
+user	0m7.399s
+sys	0m0.068s
+----------------------------------------
+[Wed Jul 23 09:51:57 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_254.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.513s
+user	0m7.487s
+sys	0m0.080s
+----------------------------------------
+[Wed Jul 23 09:51:57 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_255.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.399s
+user	0m7.387s
+sys	0m0.072s
+----------------------------------------
+[Wed Jul 23 09:51:58 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_256.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.412s
+user	0m7.402s
+sys	0m0.068s
+----------------------------------------
+[Wed Jul 23 09:51:58 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_257.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.424s
+user	0m7.377s
+sys	0m0.100s
+----------------------------------------
+[Wed Jul 23 09:51:59 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_258.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.420s
+user	0m7.439s
+sys	0m0.040s
+----------------------------------------
+[Wed Jul 23 09:51:59 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_259.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.423s
+user	0m7.451s
+sys	0m0.032s
+----------------------------------------
+[Wed Jul 23 09:51:59 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_260.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.539s
+user	0m7.512s
+sys	0m0.068s
+----------------------------------------
+[Wed Jul 23 09:52:00 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_261.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.416s
+user	0m7.406s
+sys	0m0.068s
+----------------------------------------
+[Wed Jul 23 09:52:00 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_262.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.404s
+user	0m7.431s
+sys	0m0.028s
+----------------------------------------
+[Wed Jul 23 09:52:01 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_263.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': -208077/327700}
+
+real	0m0.410s
+user	0m7.400s
+sys	0m0.068s
+----------------------------------------
+[Wed Jul 23 09:52:01 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_264.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.443s
+user	0m7.448s
+sys	0m0.052s
+----------------------------------------
+[Wed Jul 23 09:52:02 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_265.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.440s
+user	0m7.410s
+sys	0m0.076s
+----------------------------------------
+[Wed Jul 23 09:52:02 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_266.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.470s
+user	0m7.444s
+sys	0m0.072s
+----------------------------------------
+[Wed Jul 23 09:52:03 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_267.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.405s
+user	0m7.401s
+sys	0m0.060s
+----------------------------------------
+[Wed Jul 23 09:52:03 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_268.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.423s
+user	0m7.403s
+sys	0m0.080s
+----------------------------------------
+[Wed Jul 23 09:52:03 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_269.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.406s
+user	0m7.324s
+sys	0m0.127s
+----------------------------------------
+[Wed Jul 23 09:52:04 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_270.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.401s
+user	0m7.386s
+sys	0m0.072s
+----------------------------------------
+[Wed Jul 23 09:52:04 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_271.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.409s
+user	0m7.407s
+sys	0m0.060s
+----------------------------------------
+[Wed Jul 23 09:52:05 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_272.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.407s
+user	0m7.391s
+sys	0m0.072s
+----------------------------------------
+[Wed Jul 23 09:52:05 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_273.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.409s
+user	0m7.408s
+sys	0m0.060s
+----------------------------------------
+[Wed Jul 23 09:52:05 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_274.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1, '%arg3': 1, '%arg4': 1}
+
+real	0m0.410s
+user	0m7.403s
+sys	0m0.064s
+----------------------------------------
+[Wed Jul 23 09:52:06 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_275.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1, '%arg3': 1}
+
+real	0m0.407s
+user	0m7.402s
+sys	0m0.064s
+----------------------------------------
+[Wed Jul 23 09:52:06 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_276.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1, '%arg3': 1}
+
+real	0m0.453s
+user	0m7.433s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 09:52:07 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_277.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.401s
+user	0m7.385s
+sys	0m0.072s
+----------------------------------------
+[Wed Jul 23 09:52:07 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_278.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.425s
+user	0m7.446s
+sys	0m0.036s
+----------------------------------------
+[Wed Jul 23 09:52:08 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_279.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.404s
+user	0m7.396s
+sys	0m0.064s
+----------------------------------------
+[Wed Jul 23 09:52:08 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_280.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.410s
+user	0m7.398s
+sys	0m0.064s
+----------------------------------------
+[Wed Jul 23 09:52:08 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_281.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.477s
+user	0m7.466s
+sys	0m0.064s
+----------------------------------------
+[Wed Jul 23 09:52:09 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_282.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.420s
+user	0m7.414s
+sys	0m0.064s
+----------------------------------------
+[Wed Jul 23 09:52:09 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_283.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.410s
+user	0m7.409s
+sys	0m0.060s
+----------------------------------------
+[Wed Jul 23 09:52:10 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_284.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.404s
+user	0m7.386s
+sys	0m0.076s
+----------------------------------------
+[Wed Jul 23 09:52:10 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_285.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.406s
+user	0m7.404s
+sys	0m0.060s
+----------------------------------------
+[Wed Jul 23 09:52:11 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_286.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.417s
+user	0m7.394s
+sys	0m0.080s
+----------------------------------------
+[Wed Jul 23 09:52:11 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_287.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.411s
+user	0m7.317s
+sys	0m0.146s
+----------------------------------------
+[Wed Jul 23 09:52:11 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_288.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.405s
+user	0m7.400s
+sys	0m0.060s
+----------------------------------------
+[Wed Jul 23 09:52:12 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_289.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.406s
+user	0m7.373s
+sys	0m0.076s
+----------------------------------------
+[Wed Jul 23 09:52:12 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_290.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.412s
+user	0m7.427s
+sys	0m0.044s
+----------------------------------------
+[Wed Jul 23 09:52:13 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_291.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.416s
+user	0m7.396s
+sys	0m0.077s
+----------------------------------------
+[Wed Jul 23 09:52:13 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_292.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.411s
+user	0m7.413s
+sys	0m0.040s
+----------------------------------------
+[Wed Jul 23 09:52:13 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_293.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.407s
+user	0m7.421s
+sys	0m0.044s
+----------------------------------------
+[Wed Jul 23 09:52:14 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_294.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.416s
+user	0m7.348s
+sys	0m0.126s
+----------------------------------------
+[Wed Jul 23 09:52:14 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_295.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.401s
+user	0m7.399s
+sys	0m0.065s
+----------------------------------------
+[Wed Jul 23 09:52:15 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_296.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.425s
+user	0m7.446s
+sys	0m0.044s
+----------------------------------------
+[Wed Jul 23 09:52:15 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_297.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.405s
+user	0m7.364s
+sys	0m0.100s
+----------------------------------------
+[Wed Jul 23 09:52:16 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_298.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.408s
+user	0m7.423s
+sys	0m0.044s
+----------------------------------------
+[Wed Jul 23 09:52:16 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_299.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.427s
+user	0m7.318s
+sys	0m0.166s
+----------------------------------------
+[Wed Jul 23 09:52:16 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_300.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.420s
+user	0m7.430s
+sys	0m0.048s
+----------------------------------------
+[Wed Jul 23 09:52:17 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_301.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.408s
+user	0m7.389s
+sys	0m0.048s
+----------------------------------------
+[Wed Jul 23 09:52:17 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_302.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.439s
+user	0m7.362s
+sys	0m0.134s
+----------------------------------------
+[Wed Jul 23 09:52:18 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_303.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.442s
+user	0m7.285s
+sys	0m0.083s
+----------------------------------------
+[Wed Jul 23 09:52:18 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_304.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.413s
+user	0m7.286s
+sys	0m0.208s
+----------------------------------------
+[Wed Jul 23 09:52:19 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_305.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.415s
+user	0m7.432s
+sys	0m0.040s
+----------------------------------------
+[Wed Jul 23 09:52:19 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_306.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.443s
+user	0m7.435s
+sys	0m0.060s
+----------------------------------------
+[Wed Jul 23 09:52:19 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_307.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.399s
+user	0m7.410s
+sys	0m0.048s
+----------------------------------------
+[Wed Jul 23 09:52:20 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_308.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.423s
+user	0m7.419s
+sys	0m0.060s
+----------------------------------------
+[Wed Jul 23 09:52:20 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_309.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.399s
+user	0m7.405s
+sys	0m0.052s
+----------------------------------------
+[Wed Jul 23 09:52:21 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_310.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.419s
+user	0m7.416s
+sys	0m0.060s
+----------------------------------------
+[Wed Jul 23 09:52:21 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_311.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.453s
+user	0m7.443s
+sys	0m0.069s
+----------------------------------------
+[Wed Jul 23 09:52:21 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_312.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.422s
+user	0m7.414s
+sys	0m0.064s
+----------------------------------------
+[Wed Jul 23 09:52:22 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_313.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.415s
+user	0m7.407s
+sys	0m0.064s
+----------------------------------------
+[Wed Jul 23 09:52:22 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_314.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.421s
+user	0m7.410s
+sys	0m0.068s
+----------------------------------------
+[Wed Jul 23 09:52:23 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_315.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.427s
+user	0m7.428s
+sys	0m0.052s
+----------------------------------------
+[Wed Jul 23 09:52:23 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_316.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.428s
+user	0m7.444s
+sys	0m0.040s
+----------------------------------------
+[Wed Jul 23 09:52:24 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_317.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.398s
+user	0m7.411s
+sys	0m0.048s
+----------------------------------------
+[Wed Jul 23 09:52:24 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_318.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.412s
+user	0m7.410s
+sys	0m0.061s
+----------------------------------------
+[Wed Jul 23 09:52:24 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_319.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.401s
+user	0m7.400s
+sys	0m0.060s
+----------------------------------------
+[Wed Jul 23 09:52:25 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_320.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.426s
+user	0m7.393s
+sys	0m0.092s
+----------------------------------------
+[Wed Jul 23 09:52:25 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_321.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.425s
+user	0m7.402s
+sys	0m0.040s
+----------------------------------------
+[Wed Jul 23 09:52:26 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_322.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.406s
+user	0m7.297s
+sys	0m0.166s
+----------------------------------------
+[Wed Jul 23 09:52:26 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_323.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.420s
+user	0m7.435s
+sys	0m0.044s
+----------------------------------------
+[Wed Jul 23 09:52:27 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_324.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.422s
+user	0m7.425s
+sys	0m0.052s
+----------------------------------------
+[Wed Jul 23 09:52:27 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_325.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.413s
+user	0m7.414s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 09:52:27 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_326.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.438s
+user	0m7.413s
+sys	0m0.076s
+----------------------------------------
+[Wed Jul 23 09:52:28 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_327.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.429s
+user	0m7.418s
+sys	0m0.069s
+----------------------------------------
+[Wed Jul 23 09:52:28 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_328.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.402s
+user	0m7.414s
+sys	0m0.044s
+----------------------------------------
+[Wed Jul 23 09:52:29 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_329.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.421s
+user	0m7.416s
+sys	0m0.060s
+----------------------------------------
+[Wed Jul 23 09:52:29 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_330.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.415s
+user	0m7.438s
+sys	0m0.036s
+----------------------------------------
+[Wed Jul 23 09:52:30 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_331.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.404s
+user	0m7.417s
+sys	0m0.044s
+----------------------------------------
+[Wed Jul 23 09:52:30 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_332.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.411s
+user	0m7.418s
+sys	0m0.048s
+----------------------------------------
+[Wed Jul 23 09:52:30 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_333.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1}
+
+real	0m0.422s
+user	0m7.421s
+sys	0m0.060s
+----------------------------------------
+[Wed Jul 23 09:52:31 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_334.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.416s
+user	0m7.417s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 09:52:31 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_335.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.392s
+user	0m7.390s
+sys	0m0.060s
+----------------------------------------
+[Wed Jul 23 09:52:32 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_336.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.408s
+user	0m7.416s
+sys	0m0.048s
+----------------------------------------
+[Wed Jul 23 09:52:32 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_337.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.416s
+user	0m7.421s
+sys	0m0.044s
+----------------------------------------
+[Wed Jul 23 09:52:32 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_338.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.395s
+user	0m7.405s
+sys	0m0.048s
+----------------------------------------
+[Wed Jul 23 09:52:33 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_339.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.391s
+user	0m7.404s
+sys	0m0.044s
+----------------------------------------
+[Wed Jul 23 09:52:33 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_340.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.423s
+user	0m7.419s
+sys	0m0.048s
+----------------------------------------
+[Wed Jul 23 09:52:34 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_341.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.389s
+user	0m7.394s
+sys	0m0.052s
+----------------------------------------
+[Wed Jul 23 09:52:34 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_342.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.525s
+user	0m7.381s
+sys	0m0.067s
+----------------------------------------
+[Wed Jul 23 09:52:35 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_343.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.426s
+user	0m7.381s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 09:52:35 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_344.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.385s
+user	0m7.386s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 09:52:35 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_345.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.394s
+user	0m7.420s
+sys	0m0.032s
+----------------------------------------
+[Wed Jul 23 09:52:36 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_346.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.413s
+user	0m7.379s
+sys	0m0.080s
+----------------------------------------
+[Wed Jul 23 09:52:36 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_347.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.420s
+user	0m7.424s
+sys	0m0.052s
+----------------------------------------
+[Wed Jul 23 09:52:37 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_348.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.393s
+user	0m7.394s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 09:52:37 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_349.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.416s
+user	0m7.424s
+sys	0m0.048s
+----------------------------------------
+[Wed Jul 23 09:52:37 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_350.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.400s
+user	0m7.401s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 09:52:38 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_351.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.407s
+user	0m7.405s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 09:52:38 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_352.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.409s
+user	0m7.410s
+sys	0m0.052s
+----------------------------------------
+[Wed Jul 23 09:52:39 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_353.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.398s
+user	0m7.377s
+sys	0m0.076s
+----------------------------------------
+[Wed Jul 23 09:52:39 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_354.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.394s
+user	0m7.412s
+sys	0m0.036s
+----------------------------------------
+[Wed Jul 23 09:52:39 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_355.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.406s
+user	0m7.416s
+sys	0m0.048s
+----------------------------------------
+[Wed Jul 23 09:52:40 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_356.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.407s
+user	0m7.419s
+sys	0m0.044s
+----------------------------------------
+[Wed Jul 23 09:52:40 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_357.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.396s
+user	0m7.394s
+sys	0m0.060s
+----------------------------------------
+[Wed Jul 23 09:52:41 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_358.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.421s
+user	0m7.424s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 09:52:41 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_359.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.462s
+user	0m7.476s
+sys	0m0.044s
+----------------------------------------
+[Wed Jul 23 09:52:42 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_360.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.452s
+user	0m7.431s
+sys	0m0.076s
+----------------------------------------
+[Wed Jul 23 09:52:42 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_361.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.500s
+user	0m7.470s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 09:52:43 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_362.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.630s
+user	0m6.773s
+sys	0m0.058s
+----------------------------------------
+[Wed Jul 23 09:52:43 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_363.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.548s
+user	0m7.425s
+sys	0m0.076s
+----------------------------------------
+[Wed Jul 23 09:52:44 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_364.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.427s
+user	0m7.451s
+sys	0m0.048s
+----------------------------------------
+[Wed Jul 23 09:52:44 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_365.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.465s
+user	0m7.437s
+sys	0m0.084s
+----------------------------------------
+[Wed Jul 23 09:52:45 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_366.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1, '%arg2': 1}
+
+real	0m0.437s
+user	0m7.433s
+sys	0m0.060s
+----------------------------------------
+[Wed Jul 23 09:52:45 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_367.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.438s
+user	0m7.446s
+sys	0m0.048s
+----------------------------------------
+[Wed Jul 23 09:52:46 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_368.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.468s
+user	0m7.462s
+sys	0m0.064s
+----------------------------------------
+[Wed Jul 23 09:52:46 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_369.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.455s
+user	0m7.422s
+sys	0m0.060s
+----------------------------------------
+[Wed Jul 23 09:52:46 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_370.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1, '%arg1': 1}
+
+real	0m0.467s
+user	0m7.433s
+sys	0m0.068s
+----------------------------------------
+[Wed Jul 23 09:52:47 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_371.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 51/100, '%arg1': -1/100, '%arg2': 1/100, '%arg3': 1/100, '%arg4': 1/100, '%arg5': 101/100, '%arg6': 51/100, '%arg7': 151/100, '%arg8': 101/100, '%arg9': 101/100, '%arg10': 201/100, '%arg11': 151/100, '%arg12': 151/100, '%arg13': 151/100, '%arg14': -1/100, '%arg15': 151/100, '%arg16': 151/100, '%arg17': 151/100, '%arg18': 251/100, '%arg19': 201/100, '%arg20': 201/100, '%arg21': 201/100, '%arg22': -1/100, '%arg23': 201/100, '%arg24': 301/100, '%arg25': 251/100, '%arg26': 351/100}
+
+real	0m0.478s
+user	0m7.469s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 09:52:47 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_372.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100, '%arg1': 1/100}
+
+real	0m0.461s
+user	0m7.475s
+sys	0m0.044s
+----------------------------------------
+[Wed Jul 23 09:52:48 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_373.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1}
+
+real	0m0.456s
+user	0m7.447s
+sys	0m0.068s
+----------------------------------------
+[Wed Jul 23 09:52:48 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_374.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1/100}
+
+real	0m0.456s
+user	0m7.437s
+sys	0m0.076s
+----------------------------------------
+[Wed Jul 23 09:52:49 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_375.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': 1}
+
+real	0m0.407s
+user	0m7.292s
+sys	0m0.174s
+----------------------------------------
+[Wed Jul 23 09:52:49 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_376.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': -1/100, '%arg1': 1/100}
+
+real	0m0.437s
+user	0m7.422s
+sys	0m0.072s
+----------------------------------------
+[Wed Jul 23 09:52:50 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_377.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': -1/100, '%arg1': 1/100}
+
+real	0m0.485s
+user	0m7.473s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 09:52:50 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_378.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': -1/100, '%arg1': 1/100}
+
+real	0m0.458s
+user	0m7.437s
+sys	0m0.072s
+----------------------------------------
+[Wed Jul 23 09:52:51 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_379.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': -1/100, '%arg1': 1/100}
+
+real	0m0.475s
+user	0m7.475s
+sys	0m0.044s
+----------------------------------------
+[Wed Jul 23 09:52:51 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_380.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': -1/100, '%arg1': 1/100}
+
+real	0m0.420s
+user	0m7.418s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 09:52:51 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_381.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': -1/100, '%arg1': 1/100}
+
+real	0m0.390s
+user	0m7.389s
+sys	0m0.056s
+----------------------------------------
+[Wed Jul 23 09:52:52 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_382.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': -1/100, '%arg1': 1/100}
+
+real	0m0.407s
+user	0m7.393s
+sys	0m0.072s
+----------------------------------------
+[Wed Jul 23 09:52:52 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_383.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': -1/100, '%arg1': 1/100}
+
+real	0m0.427s
+user	0m7.449s
+sys	0m0.036s
+----------------------------------------
+[Wed Jul 23 09:52:53 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_384.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': -1/100, '%arg1': 1/100}
+
+real	0m0.421s
+user	0m7.409s
+sys	0m0.068s
+----------------------------------------
+[Wed Jul 23 09:52:53 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_385.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': -1/100, '%arg1': 1/100}
+
+real	0m0.471s
+user	0m7.355s
+sys	0m0.174s
+----------------------------------------
+[Wed Jul 23 09:52:54 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_386.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': -1/100, '%arg1': 1/100}
+
+real	0m0.405s
+user	0m7.424s
+sys	0m0.040s
+----------------------------------------
+[Wed Jul 23 09:52:54 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_387.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': -1/100, '%arg1': 1/100}
+
+real	0m0.398s
+user	0m7.395s
+sys	0m0.060s
+----------------------------------------
+[Wed Jul 23 09:52:54 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_388.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': -1/100, '%arg1': 1/100}
+
+real	0m0.401s
+user	0m7.398s
+sys	0m0.076s
+----------------------------------------
+[Wed Jul 23 09:52:55 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_389.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': -1/100, '%arg1': 1/100}
+
+real	0m0.405s
+user	0m7.413s
+sys	0m0.048s
+----------------------------------------
+[Wed Jul 23 09:52:55 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_390.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': -1/100, '%arg1': 1/100}
+
+real	0m0.403s
+user	0m7.421s
+sys	0m0.040s
+----------------------------------------
+[Wed Jul 23 09:52:56 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_391.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': -1/100, '%arg1': 1/100}
+
+real	0m0.385s
+user	0m7.384s
+sys	0m0.060s
+----------------------------------------
+[Wed Jul 23 09:52:56 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_392.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': -1/100, '%arg1': 1/100}
+
+real	0m0.412s
+user	0m7.373s
+sys	0m0.096s
+----------------------------------------
+[Wed Jul 23 09:52:56 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_393.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': -1/100, '%arg1': 1/100}
+
+real	0m0.402s
+user	0m7.419s
+sys	0m0.040s
+----------------------------------------
+[Wed Jul 23 09:52:57 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_394.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': -1/100, '%arg1': 1/100}
+
+real	0m0.396s
+user	0m7.386s
+sys	0m0.068s
+----------------------------------------
+[Wed Jul 23 09:52:57 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_395.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': -1/100, '%arg1': 1/100}
+
+real	0m0.399s
+user	0m7.386s
+sys	0m0.060s
+----------------------------------------
+[Wed Jul 23 09:52:58 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_396.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': -1/100, '%arg1': 1/100}
+
+real	0m0.402s
+user	0m7.408s
+sys	0m0.052s
+----------------------------------------
+[Wed Jul 23 09:52:58 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_397.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': -1/100, '%arg1': 1/100}
+
+real	0m0.407s
+user	0m7.421s
+sys	0m0.044s
+----------------------------------------
+[Wed Jul 23 09:52:58 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_398.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': -1/100, '%arg1': 1/100}
+
+real	0m0.443s
+user	0m7.432s
+sys	0m0.052s
+----------------------------------------
+[Wed Jul 23 09:52:59 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_399.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': -1/100, '%arg1': 1/100}
+
+real	0m0.404s
+user	0m7.414s
+sys	0m0.048s
+----------------------------------------
+[Wed Jul 23 09:52:59 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_400.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': -1/100, '%arg1': 1/100}
+
+real	0m0.408s
+user	0m7.409s
+sys	0m0.052s
+----------------------------------------
+[Wed Jul 23 09:53:00 UTC 2025] Processing: /home/genesis/hlo_cliped_tests/0512/seq512_sparse50T_baseline_0217_r6144515_0/main_cluster_401.cluster.stablehlo.mlir
+All operations visited successfully.
+Checking satisfiability of constraints...
+Solution: {'%arg0': -1/100, '%arg1': 1/100}
+
+real	0m0.402s
+user	0m7.400s
+sys	0m0.056s
+----------------------------------------
+==== Completed: 0512_seq.log ====

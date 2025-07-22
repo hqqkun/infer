@@ -2,3 +2,5 @@
 stablehlo
 cython==3.0.11
 z3-solver>=4.12.0
+hydra-core
+omegaconf
