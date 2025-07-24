@@ -1,13 +1,14 @@
-import z3
+import math
 import mlir.ir as ir
 import mlir.dialects.stablehlo as stablehlo
 import mlir.dialects.tensor as tensor
 import mlir.dialects.arith as arith
 import mlir.dialects.shape as shape
+import z3
 from functools import singledispatchmethod
 from enum import Enum
 from typing import Optional
-import math
+from mlir.ir import Type
 
 
 class Status(Enum):
@@ -22,6 +23,8 @@ class OpVisitor:
             self.f16_max_val = kwargs.get("f16_max")
             self.f32_min_val = kwargs.get("f32_min")
             self.f32_max_val = kwargs.get("f32_max")
+            self.i64_min_val = kwargs.get("i64_min")
+            self.i64_max_val = kwargs.get("i64_max")
             self.max_dynamic_dim = kwargs.get("max_dynamic_dim")
             self.ln_f16_max_val = math.log(self.f16_max_val)
             self.ln_f32_max_val = math.log(self.f32_max_val)
@@ -48,6 +51,14 @@ class OpVisitor:
         return self.config.f32_max_val
 
     @property
+    def i64_min_val(self):
+        return self.config.i64_min_val
+
+    @property
+    def i64_max_val(self):
+        return self.config.i64_max_val
+
+    @property
     def max_dynamic_dim(self):
         return self.config.max_dynamic_dim
 
@@ -59,7 +70,9 @@ class OpVisitor:
     def ln_f32_max_val(self):
         return self.config.ln_f32_max_val
 
-    def compute_safe_average(self, constants: list) -> Optional[float]:
+    def compute_safe_average(
+        self, constants: list, element_type: Type
+    ) -> Optional[float]:
         if len(constants) == 0:
             return None
 
@@ -68,25 +81,46 @@ class OpVisitor:
             if constant == float("nan"):
                 return None
             elif constant == float("+inf"):
-                return self.f16_max_val
+                return (
+                    self.f16_max_val
+                    if isinstance(element_type, ir.F16Type)
+                    else self.f32_max_val
+                )
             elif constant == float("-inf"):
-                return self.f16_min_val
+                return (
+                    self.f16_min_val
+                    if isinstance(element_type, ir.F16Type)
+                    else self.f32_min_val
+                )
             else:
                 sum_value += float(constant)
         return sum_value / len(constants)
 
     def set_range_constraints(
-        self, value: Optional[z3.ArithRef], min_val: float = None, max_val: float = None
+        self,
+        value: Optional[z3.ArithRef],
+        element_type: Type,
+        *,
+        min_val: float = None,
+        max_val: float = None,
     ):
         if value is None:
             return
-        max_bound = max_val if max_val is not None else self.f16_max_val
-        min_bound = min_val if min_val is not None else self.f16_min_val
-        self.solver.add(value > min_bound, value < max_bound)
 
-    def boolean_range_constraint(self, value: Optional[z3.ArithRef]):
-        if value is not None:
-            self.solver.add(z3.Or(value == 0, value == 1))
+        if isinstance(element_type, ir.F16Type):
+            max_bound = max_val if max_val is not None else self.f16_max_val
+            min_bound = min_val if min_val is not None else self.f16_min_val
+        elif isinstance(element_type, ir.F32Type):
+            max_bound = max_val if max_val is not None else self.f32_max_val
+            min_bound = min_val if min_val is not None else self.f32_min_val
+        elif isinstance(element_type, ir.IntegerType) or isinstance(
+            element_type, ir.IndexType
+        ):
+            max_bound = max_val if max_val is not None else self.i64_max_val
+            min_bound = min_val if min_val is not None else self.i64_min_val
+        else:
+            raise ValueError(f"Unsupported element type: {element_type}")
+        self.solver.add(value > min_bound, value < max_bound)
 
     def get_max_ref(self, lhs: z3.ArithRef, rhs: z3.ArithRef) -> z3.ArithRef:
         return z3.If(lhs > rhs, lhs, rhs)
@@ -94,11 +128,17 @@ class OpVisitor:
     def get_min_ref(self, lhs: z3.ArithRef, rhs: z3.ArithRef) -> z3.ArithRef:
         return z3.If(lhs < rhs, lhs, rhs)
 
-    def get_max_dim(self, type: ir.RankedTensorType) -> Optional[z3.ArithRef]:
-        """Returns the maximum dimension size as a Z3 Real variable if the shape is static."""
+    def get_max_dim(self, type: ir.RankedTensorType) -> z3.ArithRef:
+        """Returns the maximum dimension size as a Z3 integer value.
+
+        If the tensor shape is static, returns the concrete maximum dimension size.
+        If the shape is dynamic, returns the maximum between the largest dimension
+        and the preset maximum dynamic dimension size (self.max_dynamic_dim).
+        """
+        max_component = max(type.shape)
         if type.has_static_shape:
-            return z3.RealVal(max(type.shape))
-        return None
+            return z3.IntVal(max_component)
+        return z3.IntVal(max(max_component, self.max_dynamic_dim))
 
     @singledispatchmethod
     def process_op(self, op):
@@ -107,21 +147,21 @@ class OpVisitor:
     @process_op.register(stablehlo.AddOp)
     def _(self, op: stablehlo.AddOp):
         result = self.ref_dict[op.lhs] + self.ref_dict[op.rhs]
-        self.set_range_constraints(result)
+        self.set_range_constraints(result, op.lhs.type.element_type)
         self.ref_dict[op.result] = result
         return Status.SUCCESS
 
     @process_op.register(stablehlo.SubtractOp)
     def _(self, op: stablehlo.SubtractOp):
         result = self.ref_dict[op.lhs] - self.ref_dict[op.rhs]
-        self.set_range_constraints(result)
+        self.set_range_constraints(result, op.lhs.type.element_type)
         self.ref_dict[op.result] = result
         return Status.SUCCESS
 
     @process_op.register(stablehlo.MulOp)
     def _(self, op: stablehlo.MulOp):
         result = self.ref_dict[op.lhs] * self.ref_dict[op.rhs]
-        self.set_range_constraints(result)
+        self.set_range_constraints(result, op.lhs.type.element_type)
         self.ref_dict[op.result] = result
         return Status.SUCCESS
 
@@ -130,21 +170,21 @@ class OpVisitor:
         rhs = self.ref_dict[op.rhs]
         self.solver.add(rhs != 0)
         result = self.ref_dict[op.lhs] / rhs
-        self.set_range_constraints(result)
+        self.set_range_constraints(result, op.lhs.type.element_type)
         self.ref_dict[op.result] = result
         return Status.SUCCESS
 
     @process_op.register(stablehlo.MaxOp)
     def _(self, op: stablehlo.MaxOp):
         result = self.get_max_ref(self.ref_dict[op.lhs], self.ref_dict[op.rhs])
-        self.set_range_constraints(result)
+        self.set_range_constraints(result, op.lhs.type.element_type)
         self.ref_dict[op.result] = result
         return Status.SUCCESS
 
     @process_op.register(stablehlo.MinOp)
     def _(self, op: stablehlo.MinOp):
         result = self.get_min_ref(self.ref_dict[op.lhs], self.ref_dict[op.rhs])
-        self.set_range_constraints(result)
+        self.set_range_constraints(result, op.lhs.type.element_type)
         self.ref_dict[op.result] = result
         return Status.SUCCESS
 
@@ -152,14 +192,13 @@ class OpVisitor:
     def _(self, op: stablehlo.ConstantOp):
         cst = op.value
         assert isinstance(cst, ir.DenseElementsAttr)
-
         constants = None
         if cst.is_splat:
             constants = [cst.get_splat_value().value]
         else:
             constants = list(cst)
 
-        val = self.compute_safe_average(constants)
+        val = self.compute_safe_average(constants, cst.type.element_type)
         if val is None:
             return Status.FAILURE
         self.ref_dict[op.output] = z3.RealVal(val)
@@ -172,11 +211,9 @@ class OpVisitor:
         if lhs_type.is_dynamic_dim(1):
             return Status.FAILURE  # Cannot process dynamic dimensions
         result = (
-            self.ref_dict[op.lhs]
-            * self.ref_dict[op.rhs]
-            * z3.RealVal(lhs_type.shape[1])
+            self.ref_dict[op.lhs] * self.ref_dict[op.rhs] * z3.IntVal(lhs_type.shape[1])
         )
-        self.set_range_constraints(result)
+        self.set_range_constraints(result, op.lhs.type.element_type)
         self.ref_dict[op.result] = result
         return Status.SUCCESS
 
@@ -188,19 +225,20 @@ class OpVisitor:
         result = self.ref_dict[op.lhs] * self.ref_dict[op.rhs]
         for dim in dot_dims_attr.lhs_contracting_dimensions:
             if lhs_type.is_dynamic_dim(dim):
-                result *= z3.RealVal(self.max_dynamic_dim)
+                result *= z3.IntVal(self.max_dynamic_dim)
             else:
-                result *= z3.RealVal(lhs_type.shape[dim])
-        self.set_range_constraints(result)
+                result *= z3.IntVal(lhs_type.shape[dim])
+        self.set_range_constraints(result, op.lhs.type.element_type)
         self.ref_dict[op.result] = result
         return Status.SUCCESS
 
     @process_op.register(stablehlo.RsqrtOp)
     def _(self, op: stablehlo.RsqrtOp):
         operand = self.ref_dict[op.operand]
+        element_type = op.operand.type.element_type
         result = 1 / z3.Sqrt(operand)
-        self.set_range_constraints(result, min_val=0.0)
-        self.set_range_constraints(operand, min_val=0.0)
+        self.set_range_constraints(result, element_type, min_val=0.0)
+        self.set_range_constraints(operand, element_type, min_val=0.0)
         self.ref_dict[op.result] = result
         return Status.SUCCESS
 
@@ -208,26 +246,54 @@ class OpVisitor:
     def _(self, op: stablehlo.NegOp):
         result = -self.ref_dict[op.operand]
         # TODO: Should we add a range constraint here?
-        self.set_range_constraints(result)
+        self.set_range_constraints(result, op.operand.type.element_type)
         self.ref_dict[op.result] = result
         return Status.SUCCESS
 
     @process_op.register(stablehlo.ExpOp)
     def _(self, op: stablehlo.ExpOp):
         operand = self.ref_dict[op.operand]
-        # For simplicity, we just ensure the operand is within a reasonable range.
-        self.solver.add(operand <= self.ln_f16_max_val)
         result = z3.Real(op.result.get_name())
         self.ref_dict[op.result] = result
-        self.set_range_constraints(result, min_val=0.0, max_val=self.f16_max_val)
+        element_type = op.operand.type.element_type
+
+        if isinstance(element_type, (ir.F16Type, ir.F32Type)):
+            max_ln_val = (
+                self.ln_f16_max_val
+                if isinstance(element_type, ir.F16Type)
+                else self.ln_f32_max_val
+            )
+            self.solver.add(operand < max_ln_val)
+            self.set_range_constraints(
+                result,
+                element_type,
+                min_val=0.0,
+            )
+        else:
+            raise ValueError(f"Unsupported element type for ExpOp: {element_type}")
+
         return Status.SUCCESS
 
     @process_op.register(stablehlo.CompareOp)
     def _(self, op: stablehlo.CompareOp):
-        result = z3.Real(op.result.get_name())
-        # Just set zero or one.
-        self.solver.add(z3.Or(result == 0, result == 1))
-        self.ref_dict[op.result] = result
+        lhs = self.ref_dict[op.lhs]
+        rhs = self.ref_dict[op.rhs]
+        # ? Should we just return a boolean for simplicity?
+        compare = stablehlo.ComparisonDirectionAttr(op.comparison_direction).value
+        if compare == "EQ":
+            self.ref_dict[op.result] = lhs == rhs
+        elif compare == "NE":
+            self.ref_dict[op.result] = lhs != rhs
+        elif compare == "LT":
+            self.ref_dict[op.result] = lhs < rhs
+        elif compare == "LE":
+            self.ref_dict[op.result] = lhs <= rhs
+        elif compare == "GT":
+            self.ref_dict[op.result] = lhs > rhs
+        elif compare == "GE":
+            self.ref_dict[op.result] = lhs >= rhs
+        else:
+            raise ValueError(f"Unsupported comparison direction: {compare}")
         return Status.SUCCESS
 
     @process_op.register(stablehlo.ConcatenateOp)
@@ -237,7 +303,7 @@ class OpVisitor:
         value = operands[0]
         for operand in operands[1:]:
             value = self.get_max_ref(value, operand)
-        self.set_range_constraints(value)
+        self.set_range_constraints(value, op.inputs[0].type.element_type)
         self.ref_dict[op.result] = value
         return Status.SUCCESS
 
@@ -254,8 +320,8 @@ class OpVisitor:
                     numel = self.max_dynamic_dim
                 else:
                     numel *= src_type.shape[dim]
-            result = self.ref_dict[src] * z3.RealVal(numel)
-            self.set_range_constraints(result)
+            result = self.ref_dict[src] * z3.IntVal(numel)
+            self.set_range_constraints(result, src_type.element_type)
             self.ref_dict[op.result] = result
         elif isinstance(apply_op, stablehlo.MaxOp):
             self.ref_dict[op.result] = self.ref_dict[src]
@@ -266,8 +332,9 @@ class OpVisitor:
     @process_op.register(stablehlo.SignOp)
     def _(self, op: stablehlo.SignOp):
         operand = self.ref_dict[op.operand]
-        result = z3.If(operand > 0, 1, z3.If(operand < 0, -1, 0))
-        self.ref_dict[op.result] = result
+        self.ref_dict[op.result] = z3.simplify(
+            z3.If(operand > 0, 1, z3.If(operand < 0, -1, 0))
+        )
         return Status.SUCCESS
 
     @process_op.register(stablehlo.SelectOp)
@@ -276,30 +343,31 @@ class OpVisitor:
         true_value = self.ref_dict[op.on_true]
         false_value = self.ref_dict[op.on_false]
         # TODO: Make more precise with ranges.
-        result = z3.If(condition == 1, true_value, false_value)
-        self.solver.add(
-            z3.Or(condition == 0, condition == 1)
-        )  # Ensure condition is boolean
-        self.set_range_constraints(result)
+        result = z3.If(condition, true_value, false_value)
+        self.set_range_constraints(result, op.on_true.type.element_type)
         self.ref_dict[op.result] = result
         return Status.SUCCESS
 
     @process_op.register(stablehlo.AndOp)
+    def _(self, op: stablehlo.AndOp):
+        self.ref_dict[op.result] = z3.And(self.ref_dict[op.lhs], self.ref_dict[op.rhs])
+        return Status.SUCCESS
+
     @process_op.register(stablehlo.OrOp)
+    def _(self, op: stablehlo.OrOp):
+        self.ref_dict[op.result] = z3.Or(self.ref_dict[op.lhs], self.ref_dict[op.rhs])
+        return Status.SUCCESS
+
     @process_op.register(stablehlo.XorOp)
-    def _(self, op):
-        # These operations are boolean, so we just ensure the result is 0 or 1.
-        result = z3.Real(op.result.get_name())
-        self.solver.add(z3.Or(result == 0, result == 1))
-        self.ref_dict[op.result] = result
+    def _(self, op: stablehlo.XorOp):
+        self.ref_dict[op.result] = z3.simplify(
+            z3.Xor(self.ref_dict[op.lhs], self.ref_dict[op.rhs])
+        )
         return Status.SUCCESS
 
     @process_op.register(stablehlo.NotOp)
     def _(self, op: stablehlo.NotOp):
-        # Not operation flips the boolean value
-        operand = self.ref_dict[op.operand]
-        result = z3.If(operand == 0, 1, 0)
-        self.ref_dict[op.result] = result
+        self.ref_dict[op.result] = z3.Not(self.ref_dict[op.operand])
         return Status.SUCCESS
 
     @process_op.register(stablehlo.LogisticOp)
@@ -307,16 +375,15 @@ class OpVisitor:
         # Logistic function: 1 / (1 + exp(-x))
         # However, for simplicity, we just ensure the result is within a reasonable range.
         result = z3.Real(op.result.get_name())
-        self.set_range_constraints(result, min_val=0.0, max_val=1.0)
+        self.set_range_constraints(
+            result, op.result.type.element_type, min_val=0.0, max_val=1.0
+        )
         self.ref_dict[op.result] = result
         return Status.SUCCESS
 
     @process_op.register(stablehlo.IsFiniteOp)
     def _(self, op: stablehlo.IsFiniteOp):
-        result = z3.Real(op.result.get_name())
-        # The result is either true (1) or false (0).
-        self.boolean_range_constraint(result)
-        self.ref_dict[op.result] = result
+        self.ref_dict[op.result] = z3.Bool(op.result.get_name())
         return Status.SUCCESS
 
     @process_op.register(stablehlo.TanhOp)
@@ -324,7 +391,9 @@ class OpVisitor:
         # Tanh function: (exp(x) - exp(-x)) / (exp(x) + exp(-x))
         # For simplicity, we just ensure the result is within a reasonable range.
         result = z3.Real(op.result.get_name())
-        self.set_range_constraints(result, min_val=-1.0, max_val=1.0)
+        self.set_range_constraints(
+            result, op.result.type.element_type, min_val=-1.0, max_val=1.0
+        )
         self.ref_dict[op.result] = result
         return Status.SUCCESS
 
@@ -334,7 +403,17 @@ class OpVisitor:
         # Logarithm is only defined for positive values.
         self.solver.add(operand > 0.0)
         result = z3.Real(op.result.get_name())
-        self.set_range_constraints(result, max_val=self.ln_f16_max_val)
+        element_type = op.operand.type.element_type
+
+        if isinstance(element_type, (ir.F16Type, ir.F32Type)):
+            max_ln_val = (
+                self.ln_f16_max_val
+                if isinstance(element_type, ir.F16Type)
+                else self.ln_f32_max_val
+            )
+            self.set_range_constraints(result, element_type, max_val=max_ln_val)
+        else:
+            raise ValueError(f"Unsupported element type for LogOp: {element_type}")
         self.ref_dict[op.result] = result
         return Status.SUCCESS
 
@@ -345,19 +424,45 @@ class OpVisitor:
         # We ensure the operand is greater than -1 to avoid log(0).
         self.solver.add(operand > -1.0)
         result = z3.Real(op.result.get_name())
-        self.set_range_constraints(result, max_val=self.ln_f16_max_val)
+        element_type = op.operand.type.element_type
+
+        if isinstance(element_type, (ir.F16Type, ir.F32Type)):
+            max_ln_val = (
+                self.ln_f16_max_val
+                if isinstance(element_type, ir.F16Type)
+                else self.ln_f32_max_val
+            )
+            self.set_range_constraints(result, element_type, max_val=max_ln_val)
+        else:
+            raise ValueError(f"Unsupported element type for LogOp: {element_type}")
         self.ref_dict[op.result] = result
         return Status.SUCCESS
 
     @process_op.register(stablehlo.PowOp)
     def _(self, op: stablehlo.PowOp):
         result = self.ref_dict[op.lhs] ** self.ref_dict[op.rhs]
-        self.set_range_constraints(result)
+        self.set_range_constraints(result, op.lhs.type.element_type)
         self.ref_dict[op.result] = result
         return Status.SUCCESS
 
-    @process_op.register(stablehlo.BroadcastInDimOp)
     @process_op.register(stablehlo.ConvertOp)
+    def _(self, op: stablehlo.ConvertOp):
+        src = self.ref_dict[op.operand]
+        src_element_type = op.operand.type.element_type
+        dst_element_type = op.result.type.element_type
+        if dst_element_type.width == 1:
+            # Convert to boolean
+            result = z3.Bool(op.result.get_name())
+            self.ref_dict[op.result] = result
+            self.solver.add(result == src)
+        else:
+            if src_element_type.width > dst_element_type.width:
+                # If converting to a larger type, we need to set the range constraints.
+                self.set_range_constraints(src, dst_element_type)
+            self.ref_dict[op.result] = self.ref_dict[op.operand]
+        return Status.SUCCESS
+
+    @process_op.register(stablehlo.BroadcastInDimOp)
     @process_op.register(stablehlo.DynamicBroadcastInDimOp)
     @process_op.register(stablehlo.DynamicPadOp)
     @process_op.register(stablehlo.DynamicReshapeOp)
@@ -395,7 +500,7 @@ class OpVisitor:
         dim = int(index_opview.literal_value)
         source_type = op.source.type
         max_dim = self.max_dynamic_dim
-        result = z3.RealVal(
+        result = z3.IntVal(
             max_dim if source_type.is_dynamic_dim(dim) else source_type.shape[dim]
         )
         self.ref_dict[op.result] = result
@@ -411,17 +516,12 @@ class OpVisitor:
     def _(self, op: shape.ShapeOfOp):
         arg_type = op.arg.type
         assert isinstance(arg_type, ir.RankedTensorType)
-        opt_max_dim = self.get_max_dim(arg_type)
-        if opt_max_dim is not None:
-            self.ref_dict[op.result] = opt_max_dim
-        else:
-            result = z3.Real(op.result.get_name())
-            self.set_range_constraints(result, min_val=0, max_val=self.max_dynamic_dim)
-            self.ref_dict[op.result] = result
+        self.ref_dict[op.result] = self.get_max_dim(arg_type)
         return Status.SUCCESS
 
     # TODO: handle other operations as needed
     @process_op.register(stablehlo.AbsOp)
+    @process_op.register(stablehlo.ConvolutionOp)
     @process_op.register(stablehlo.FftOp)
     @process_op.register(stablehlo.FloorOp)
     @process_op.register(stablehlo.GetTupleElementOp)

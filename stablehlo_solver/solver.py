@@ -1,11 +1,11 @@
 import mlir.ir as ir
+import mlir.dialects.stablehlo as stablehlo
+import stablehlo_solver.op_visitor as op_visitor
+import z3
 from mlir.ir import Type
 from mlir.passmanager import PassManager
-import mlir.dialects.stablehlo as stablehlo
 from typing import Dict, Optional
-import z3
 from enum import Enum, auto
-import stablehlo_solver.op_visitor as op_visitor
 
 
 class SolverStatus(Enum):
@@ -27,15 +27,22 @@ class MLIRSolver:
         self.module = self._parse_and_optimize_module(model_str)
         self.func = self._get_entry_function()
         self.ref_dict: Dict[ir.Value, z3.ArithRef] = {}
+        self.init_handlels = {
+            ir.IntegerType: self._handle_integer_type,
+            ir.F16Type: self._handle_float_type,
+            ir.F32Type: self._handle_float_type,
+        }
         self._init_hyperparameters(**kwargs)
         self._initialize_arguments()
         self.visitor = op_visitor.OpVisitor(self.solver, self.ref_dict, **kwargs)
 
     def _init_hyperparameters(self, **kwargs):
-        self.negative_min_val = kwargs.get("negative_min_val")
-        self.negative_max_val = kwargs.get("negative_max_val")
-        self.positive_min_val = kwargs.get("positive_min_val")
-        self.positive_max_val = kwargs.get("positive_max_val")
+        self.negative_fp_min_val = kwargs.get("negative_fp_min_val")
+        self.negative_fp_max_val = kwargs.get("negative_fp_max_val")
+        self.positive_fp_min_val = kwargs.get("positive_fp_min_val")
+        self.positive_fp_max_val = kwargs.get("positive_fp_max_val")
+        self.negative_int_min_val = kwargs.get("negative_int_min_val")
+        self.positive_int_max_val = kwargs.get("positive_int_max_val")
 
     def _parse_and_optimize_module(self, model_str: str) -> ir.Module:
         """Parse MLIR and apply optimization passes."""
@@ -59,34 +66,50 @@ class MLIRSolver:
             raise ValueError("Empty module")
         return self.module.body.operations[0]
 
-    def _initialize_input_value_range(
-        self, value: Optional[z3.ArithRef], element_type: Type
-    ) -> None:
-        """Initialize the range constraints for input values."""
-        if value is None:
-            return
+    def _handle_integer_type(self, arg, element_type: ir.IntegerType) -> z3.ArithRef:
+        """
+        Handle integer type variable initialization and constraint setting.
+        """
+        if element_type.width == 1:
+            # Treat 1-bit integers as boolean values
+            return z3.Bool(arg.get_name())
 
-        if isinstance(element_type, ir.IntegerType) and element_type.width == 1:
-            # For boolean types, we can use a simple constraint
-            self.solver.add(z3.Or(value == 0, value == 1))
-        else:
-            self.solver.add(
-                z3.Or(
-                    z3.And(
-                        value >= self.negative_min_val, value <= self.negative_max_val
-                    ),
-                    z3.And(
-                        value >= self.positive_min_val, value <= self.positive_max_val
-                    ),
-                )
+        arg_ref = z3.Int(arg.get_name())
+        # Add integer range constraints
+        self.solver.add(
+            z3.And(
+                arg_ref >= self.negative_int_min_val,
+                arg_ref <= self.positive_int_max_val,
             )
+        )
+        return arg_ref
+
+    def _handle_float_type(self, arg, element_type: Type) -> z3.ArithRef:
+        """Handle floating-point type variable initialization and constraint setting."""
+        arg_ref = z3.Real(arg.get_name())
+        self.solver.add(
+            z3.Or(
+                z3.And(
+                    arg_ref >= self.negative_fp_min_val,
+                    arg_ref <= self.negative_fp_max_val,
+                ),
+                z3.And(
+                    arg_ref >= self.positive_fp_min_val,
+                    arg_ref <= self.positive_fp_max_val,
+                ),
+            )
+        )
+        return arg_ref
 
     def _initialize_arguments(self) -> None:
         """Initialize Z3 variables for function arguments."""
         for arg in self.func.arguments:
-            arg_ref = z3.Real(arg.get_name())
             assert isinstance(arg.type, ir.ShapedType)
-            self._initialize_input_value_range(arg_ref, arg.type.element_type)
+            handler = self.init_handlels.get(type(arg.type.element_type))
+            if handler is None:
+                raise TypeError(f"Unsupported argument type: {arg.type.element_type}")
+            # Initialize the Z3 variable for the argument
+            arg_ref = handler(arg, arg.type.element_type)
             self.ref_dict[arg] = arg_ref
 
     def analyze(self) -> SolverStatus:
@@ -116,9 +139,15 @@ class MLIRSolver:
             raise RuntimeError("Model is not satisfiable")
 
         model = self.solver.model()
-        return {
-            arg.get_name(): model[self.ref_dict[arg]] for arg in self.func.arguments
-        }
+        res = {}
+
+        for arg in self.func.arguments:
+            arg_ref = self.ref_dict[arg]
+            if arg_ref.sort().kind() == z3.Z3_REAL_SORT:
+                res[arg.get_name()] = model[arg_ref].as_decimal(4)
+            else:
+                res[arg.get_name()] = model[arg_ref]
+        return res
 
     def reset(self) -> None:
         """Reset the solver state."""

@@ -3,19 +3,26 @@ file_path: "xxx"
 # Solver configuration
 solver:
   # Input value range constraints
-  negative_min_val: -10.0
-  negative_max_val: -0.01
-  positive_min_val: 0.01
-  positive_max_val: 10.0
+  negative_fp_min_val: -10.0
+  negative_fp_max_val: -0.01
+  positive_fp_min_val: 0.01
+  positive_fp_max_val: 10.0
+
+  negative_int_min_val: -10
+  positive_int_max_val: 10
   
   # Range for operation results (F16)
   f16_min: -60000.0
   f16_max: 60000.0
   
   # Range for operation results (F32)
-  f32_min: -1e30
-  f32_max: 1e30
-  
+  f32_min: -1e10
+  f32_max: 1e10
+
+  # Range for operation results (i64)
+  i64_min: -1e10
+  i64_max: 1e10
+
   # Maximum dynamic dimension size
   max_dynamic_dim: 2048
 
