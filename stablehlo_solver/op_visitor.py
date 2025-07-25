@@ -10,6 +10,10 @@ from enum import Enum
 from typing import Optional
 from mlir.ir import Type
 
+import logging
+
+logger = logging.getLogger(__name__)
+
 
 class Status(Enum):
     FAILURE = 0
@@ -33,6 +37,9 @@ class OpVisitor:
         self.solver = solver
         self.ref_dict = ref_dict
         self.config = self.RangeConfig(**kwargs)
+        # %0 = shape.shape_of %arg0 : tensor<?x130x25xf32> -> tensor<3xindex>
+        # {%0 : [?, 130, 25]}
+        self.association_type_dict = {}
 
     @property
     def f16_min_val(self):
@@ -516,7 +523,70 @@ class OpVisitor:
     def _(self, op: shape.ShapeOfOp):
         arg_type = op.arg.type
         assert isinstance(arg_type, ir.RankedTensorType)
+        # Set the result to the maximum dimension size for simplicity.
         self.ref_dict[op.result] = self.get_max_dim(arg_type)
+        # Store the association of the shape with the tensor type.
+        # This is useful for operations that depend on the shape.
+        self.association_type_dict[op.result] = arg_type.shape
+        return Status.SUCCESS
+
+    #! Handle shape dialect operations
+    @process_op.register(shape.ConstSizeOp)
+    def _(self, op: shape.ConstSizeOp):
+        size = op.value
+        assert isinstance(size, ir.IntegerAttr)
+        self.ref_dict[op.result] = z3.IntVal(size.value)
+        return Status.SUCCESS
+
+    @process_op.register(shape.NumElementsOp)
+    def _(self, op: shape.NumElementsOp):
+        operand = op.shape
+        dim_sizes = self.association_type_dict.get(operand)
+        if dim_sizes is None:
+            return Status.FAILURE
+
+        numel = 1
+        for dim in dim_sizes:
+            numel *= self.max_dynamic_dim if ir.ShapedType.is_dynamic_size(dim) else dim
+
+        self.ref_dict[op.result] = z3.IntVal(numel)
+        return Status.SUCCESS
+
+    @process_op.register(shape.IndexToSizeOp)
+    def _(self, op: shape.IndexToSizeOp):
+        self.ref_dict[op.result] = self.ref_dict[op.arg]
+        return Status.SUCCESS
+
+    @process_op.register(shape.DivOp)
+    def _(self, op: shape.DivOp):
+        lhs = self.ref_dict[op.lhs]
+        rhs = self.ref_dict[op.rhs]
+        self.solver.add(rhs != 0)  # Ensure no division by zero
+        result = z3.simplify(lhs / rhs)
+        self.ref_dict[op.result] = result
+        return Status.SUCCESS
+
+    @process_op.register(shape.FromExtentsOp)
+    def _(self, op: shape.FromExtentsOp):
+        dim_sizes = []
+        for extent in op.extents:
+            dim_size = z3.simplify(self.ref_dict[extent]).as_long()
+            if dim_size < 0:
+                logger.error(f"Negative dimension size encountered: {dim_size}")
+                return Status.FAILURE
+            dim_sizes.append(dim_size)
+
+        self.association_type_dict[op.result] = dim_sizes
+        return Status.SUCCESS
+
+    @process_op.register(shape.ToExtentTensorOp)
+    def _(self, op: shape.ToExtentTensorOp):
+        dim_sizes = self.association_type_dict.get(op.input)
+        if dim_sizes is None:
+            logger.error(f"Dimension sizes not found for input: {op.input}")
+            return Status.FAILURE
+        max_dim_size = max(dim_sizes)
+        self.ref_dict[op.result] = z3.IntVal(max_dim_size)
         return Status.SUCCESS
 
     # TODO: handle other operations as needed

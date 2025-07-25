@@ -1,6 +1,7 @@
 import mlir.ir as ir
 import mlir.dialects.stablehlo as stablehlo
 import stablehlo_solver.op_visitor as op_visitor
+import stablehlo_solver.backward_op_visitor as backward_op_visitor
 import z3
 from mlir.ir import Type
 from mlir.passmanager import PassManager
@@ -114,7 +115,13 @@ class MLIRSolver:
 
     def analyze(self) -> SolverStatus:
         """Run the full analysis pipeline."""
+        terminator = self.func.body.blocks[0].operations[-1]
+        interested_ops = backward_op_visitor.BackwardOpVisitor.collect_interested_ops(
+            terminator
+        )
         for op in self.func.body.blocks[0].operations:
+            if op not in interested_ops:
+                continue
             if self.visitor.visit_op(op) == op_visitor.Status.FAILURE:
                 print(f"Operation processing failed: {op}")
                 return SolverStatus.FAILURE
@@ -139,15 +146,22 @@ class MLIRSolver:
             raise RuntimeError("Model is not satisfiable")
 
         model = self.solver.model()
-        res = {}
 
+        assigned_lst = []
         for arg in self.func.arguments:
             arg_ref = self.ref_dict[arg]
+            assigned = model[arg_ref]
+            if assigned is None:
+                assigned = model.eval(arg_ref, model_completion=True)
             if arg_ref.sort().kind() == z3.Z3_REAL_SORT:
-                res[arg.get_name()] = model[arg_ref].as_decimal(4)
+                format_assigned = float(assigned.as_decimal(4))
+            elif arg_ref.sort().kind() == z3.Z3_INT_SORT:
+                format_assigned = int(assigned)
             else:
-                res[arg.get_name()] = model[arg_ref]
-        return res
+                format_assigned = assigned
+            assigned_lst.append(format_assigned)
+
+        return assigned_lst
 
     def reset(self) -> None:
         """Reset the solver state."""
