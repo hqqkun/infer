@@ -103,6 +103,13 @@ class OpVisitor:
                 sum_value += float(constant)
         return sum_value / len(constants)
 
+    def get_exp_x(self, x: z3.ArithRef) -> z3.ArithRef:
+        """Compute exp(x) using a series expansion."""
+        exp_x = 1.0 + (x / 256.0)
+        for _ in range(8):
+            exp_x *= exp_x
+        return exp_x
+
     def set_range_constraints(
         self,
         value: Optional[z3.ArithRef],
@@ -259,25 +266,14 @@ class OpVisitor:
 
     @process_op.register(stablehlo.ExpOp)
     def _(self, op: stablehlo.ExpOp):
+        #! We assume the input is <= 0.0 for simplicity.
         operand = self.ref_dict[op.operand]
         result = z3.Real(op.result.get_name())
         self.ref_dict[op.result] = result
         element_type = op.operand.type.element_type
 
-        if isinstance(element_type, (ir.F16Type, ir.F32Type)):
-            max_ln_val = (
-                self.ln_f16_max_val
-                if isinstance(element_type, ir.F16Type)
-                else self.ln_f32_max_val
-            )
-            self.solver.add(operand < max_ln_val)
-            self.set_range_constraints(
-                result,
-                element_type,
-                min_val=0.0,
-            )
-        else:
-            raise ValueError(f"Unsupported element type for ExpOp: {element_type}")
+        self.solver.add(operand <= 0.0)  # Ensure the operand is non-positive
+        self.set_range_constraints(result, element_type, min_val=0.0, max_val=1.0)
 
         return Status.SUCCESS
 
@@ -305,13 +301,24 @@ class OpVisitor:
 
     @process_op.register(stablehlo.ConcatenateOp)
     def _(self, op: stablehlo.ConcatenateOp):
+        dimension = op.dimension.value
         operands = [self.ref_dict[operand] for operand in op.inputs]
-        # Return the maximum.
-        value = operands[0]
-        for operand in operands[1:]:
-            value = self.get_max_ref(value, operand)
-        self.set_range_constraints(value, op.inputs[0].type.element_type)
-        self.ref_dict[op.result] = value
+
+        sum_value = None
+        sum_dim_size = 0
+        for operand, input in zip(operands, op.inputs):
+            dim_size = input.type.shape[dimension]
+            if input.type.is_dynamic_dim(dimension):
+                dim_size = self.max_dynamic_dim
+            if sum_value is None:
+                sum_value = operand * z3.IntVal(dim_size)
+            else:
+                sum_value += operand * z3.IntVal(dim_size)
+            sum_dim_size += dim_size
+        average_value = sum_value / z3.IntVal(sum_dim_size)
+
+        self.ref_dict[op.result] = average_value
+        self.set_range_constraints(average_value, op.result.type.element_type)
         return Status.SUCCESS
 
     @process_op.register(stablehlo.ReduceOp)
