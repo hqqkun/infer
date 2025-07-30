@@ -26,11 +26,13 @@ solver:
   # Maximum dynamic dimension size
   max_dynamic_dim: 2048
 
-  timeout: 300  # Timeout in seconds
+  all_check_timeout: 60  # Timeout in seconds
+  nano_check_timeout: 50 # Timeout in milliseconds
+  
 
 defaults:
   - override hydra/hydra_logging: disabled
-  - override hydra/job_logging: disabled
+  # - override hydra/job_logging: disabled
  
 hydra:
   run:

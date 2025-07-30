@@ -4,6 +4,8 @@ import hydra
 from hydra.core.global_hydra import GlobalHydra
 from omegaconf import DictConfig, OmegaConf
 from stablehlo_solver import solver
+import z3
+cmd = """LD_PRELOAD="$LIBSTD_PATH" pytest test_hlo_benchmark_v2.py -k "test_shared_lib_acc_v2"    --shared_libs ${PWD}/shared_libs/ -s --bs 128"""
 
 
 def validate_file_path(file_path_str):
@@ -36,7 +38,20 @@ def process_with_solver(content, cfg):
         )
         if solver_instance.analyze() == solver.SolverStatus.SUCCESS:
             if solver_instance.is_satisfiable:
-                print("Solution:", solver_instance.get_model())
+                model = solver_instance.get_model()
+                lst = []
+                for value in model:
+                    if isinstance(value, str):
+                      lst.append(
+                          float(value.rstrip("?"))
+                          if "?" in value
+                          else float(value)
+                      )
+                    elif isinstance(value, (z3.IntNumRef, z3.BoolRef)):
+                        lst.append(int(value.py_value()))
+                    else:
+                        lst.append(float(value))
+                print(f"{cmd} --mlirs_file {cfg.file_path} --inputs-value='{lst}'")
             else:
                 print("Constraints unsatisfiable")
     except Exception as e:

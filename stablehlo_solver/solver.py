@@ -1,7 +1,7 @@
 import mlir.ir as ir
 import mlir.dialects.stablehlo as stablehlo
 import stablehlo_solver.op_visitor as op_visitor
-import stablehlo_solver.backward_op_visitor as backward_op_visitor
+import stablehlo_solver.backward_op_collector as backward_op_collector
 import z3
 from mlir.ir import Type
 from mlir.passmanager import PassManager
@@ -20,10 +20,6 @@ class MLIRSolver:
     def __init__(self, model_str: str, **kwargs) -> None:
         """Initialize the solver with MLIR model string."""
         self.satisfiable = None
-        # Assuming timeout is provided in seconds.
-        z3.set_param(
-            "timeout", kwargs.get("timeout") * 1000
-        )  # Set timeout in milliseconds
         self.solver = z3.Solver()
         self.module = self._parse_and_optimize_module(model_str)
         self.func = self._get_entry_function()
@@ -33,6 +29,12 @@ class MLIRSolver:
             ir.F16Type: self._handle_float_type,
             ir.F32Type: self._handle_float_type,
         }
+        self.all_check_timeout = (
+            kwargs.get("all_check_timeout") * 1000
+        )  # Assuming timeout is provided in seconds.
+        self.nano_check_timeout = (
+            kwargs.get("nano_check_timeout")
+        )  # Assuming timeout is provided in milliseconds.
         self._init_hyperparameters(**kwargs)
         self._initialize_arguments()
         self.visitor = op_visitor.OpVisitor(self.solver, self.ref_dict, **kwargs)
@@ -58,7 +60,7 @@ class MLIRSolver:
                 ")"
             )
             module = ir.Module.parse(model_str)
-            pm.run(module.operation)
+            # pm.run(module.operation)
             return module
 
     def _get_entry_function(self) -> ir.Operation:
@@ -116,15 +118,33 @@ class MLIRSolver:
     def analyze(self) -> SolverStatus:
         """Run the full analysis pipeline."""
         terminator = self.func.body.blocks[0].operations[-1]
-        interested_ops = backward_op_visitor.BackwardOpVisitor.collect_interested_ops(
+        interested_ops = backward_op_collector.BackwardOpCollector.collect_interested_ops(
             terminator
         )
+        self.solver.set("timeout", self.nano_check_timeout)  # Set timeout for each check.
+
+        # Using incremental solving.
+        check_interval = 1
+        max_interval = 50
+        op_cnt = 0
         for op in self.func.body.blocks[0].operations:
             if op not in interested_ops:
                 continue
             if self.visitor.visit_op(op) == op_visitor.Status.FAILURE:
                 print(f"Operation processing failed: {op}")
                 return SolverStatus.FAILURE
+            op_cnt += 1
+            if op_cnt != check_interval:
+                continue
+            op_cnt = 0
+            # Check the satisfiability periodically.
+            check_status = self.solver.check()
+            if check_status == z3.sat:
+                check_interval = min(
+					max_interval, check_interval + 1
+				)
+            else:
+                check_interval = max(1, check_interval // 2)
 
         print("All operations visited successfully.")
         return SolverStatus.SUCCESS
@@ -134,6 +154,7 @@ class MLIRSolver:
         """Check if constraints are satisfiable."""
         if self.satisfiable is None:
             print("Checking satisfiability of constraints...")
+            self.solver.set("timeout", self.all_check_timeout)
             result = self.solver.check()
             if result == z3.unknown:
                 print("Solver returned unknown status: ", self.solver.reason_unknown())
@@ -146,22 +167,25 @@ class MLIRSolver:
             raise RuntimeError("Model is not satisfiable")
 
         model = self.solver.model()
+        res = []
 
-        assigned_lst = []
         for arg in self.func.arguments:
             arg_ref = self.ref_dict[arg]
-            assigned = model[arg_ref]
-            if assigned is None:
-                assigned = model.eval(arg_ref, model_completion=True)
+            assigned_value = model[arg_ref]
+            if assigned_value is None:
+                assigned_value = model.eval(arg_ref, model_completion=True)
             if arg_ref.sort().kind() == z3.Z3_REAL_SORT:
-                format_assigned = float(assigned.as_decimal(4))
-            elif arg_ref.sort().kind() == z3.Z3_INT_SORT:
-                format_assigned = int(assigned)
+                res.append(assigned_value.as_decimal(4))
             else:
-                format_assigned = assigned
-            assigned_lst.append(format_assigned)
+                res.append(assigned_value)
 
-        return assigned_lst
+        # for arg in self.visitor.ref_dict:
+        #     value = model.eval(self.visitor.ref_dict[arg], model_completion=True)
+        #     if value.sort().kind() == z3.Z3_REAL_SORT:
+        #         value = value.as_decimal(4)
+
+        #     print(f"Variable {arg.get_name()} = {value}")
+        return res
 
     def reset(self) -> None:
         """Reset the solver state."""
